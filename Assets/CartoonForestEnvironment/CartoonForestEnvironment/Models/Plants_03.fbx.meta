@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 21a97a1368469d8449d0673ee99d907b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cube.015
+    100002: Cube.016
+    100004: Cube.017
+    100006: Cube.018
+    100008: Cube.023
+    100010: Cube.024
+    100012: Cube.025
+    100014: Cube.026
+    100016: Cube.031
+    100018: Cube.032
+    100020: Cube.033
+    100022: Cube.034
+    100024: Cube.039
+    100026: Cube.040
+    100028: Cube.041
+    100030: Cube.042
+    100032: //RootNode
+    400000: Cube.015
+    400002: Cube.016
+    400004: Cube.017
+    400006: Cube.018
+    400008: Cube.023
+    400010: Cube.024
+    400012: Cube.025
+    400014: Cube.026
+    400016: Cube.031
+    400018: Cube.032
+    400020: Cube.033
+    400022: Cube.034
+    400024: Cube.039
+    400026: Cube.040
+    400028: Cube.041
+    400030: Cube.042
+    400032: //RootNode
+    2300000: Cube.015
+    2300002: Cube.016
+    2300004: Cube.017
+    2300006: Cube.018
+    2300008: Cube.023
+    2300010: Cube.024
+    2300012: Cube.025
+    2300014: Cube.026
+    2300016: Cube.031
+    2300018: Cube.032
+    2300020: Cube.033
+    2300022: Cube.034
+    2300024: Cube.039
+    2300026: Cube.040
+    2300028: Cube.041
+    2300030: Cube.042
+    3300000: Cube.015
+    3300002: Cube.016
+    3300004: Cube.017
+    3300006: Cube.018
+    3300008: Cube.023
+    3300010: Cube.024
+    3300012: Cube.025
+    3300014: Cube.026
+    3300016: Cube.031
+    3300018: Cube.032
+    3300020: Cube.033
+    3300022: Cube.034
+    3300024: Cube.039
+    3300026: Cube.040
+    3300028: Cube.041
+    3300030: Cube.042
+    4300000: Cube.015
+    4300002: Cube.016
+    4300004: Cube.017
+    4300006: Cube.018
+    4300008: Cube.023
+    4300010: Cube.024
+    4300012: Cube.025
+    4300014: Cube.026
+    4300016: Cube.031
+    4300018: Cube.032
+    4300020: Cube.033
+    4300022: Cube.034
+    4300024: Cube.039
+    4300026: Cube.040
+    4300028: Cube.041
+    4300030: Cube.042
+    6400000: Cube.015
+    6400002: Cube.016
+    6400004: Cube.017
+    6400006: Cube.018
+    6400008: Cube.023
+    6400010: Cube.024
+    6400012: Cube.025
+    6400014: Cube.026
+    6400016: Cube.031
+    6400018: Cube.032
+    6400020: Cube.033
+    6400022: Cube.034
+    6400024: Cube.039
+    6400026: Cube.040
+    6400028: Cube.041
+    6400030: Cube.042
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .600000024
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 0
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

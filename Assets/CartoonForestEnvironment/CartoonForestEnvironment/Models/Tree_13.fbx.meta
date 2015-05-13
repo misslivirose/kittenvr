@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: ad0f3bad4c515654eac764e4a781f4f6
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cylinder.126
+    100002: Icosphere.060
+    100004: Icosphere.061
+    100006: Icosphere.062
+    100008: Icosphere.063
+    100010: //RootNode
+    400000: Cylinder.126
+    400002: Icosphere.060
+    400004: Icosphere.061
+    400006: Icosphere.062
+    400008: Icosphere.063
+    400010: //RootNode
+    2300000: Cylinder.126
+    2300002: Icosphere.060
+    2300004: Icosphere.061
+    2300006: Icosphere.062
+    2300008: Icosphere.063
+    3300000: Cylinder.126
+    3300002: Icosphere.060
+    3300004: Icosphere.061
+    3300006: Icosphere.062
+    3300008: Icosphere.063
+    4300000: Cylinder.126
+    4300002: Icosphere.060
+    4300004: Icosphere.061
+    4300006: Icosphere.062
+    4300008: Icosphere.063
+    6400000: Cylinder.126
+    6400002: Icosphere.060
+    6400004: Icosphere.061
+    6400006: Icosphere.062
+    6400008: Icosphere.063
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 0
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
