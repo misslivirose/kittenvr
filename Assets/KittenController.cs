@@ -5,7 +5,7 @@ public class KittenController : MonoBehaviour {
 
 	public bool isVisible = false;
 	private float timer = 0.0f;
-	public GameController playerStats;
+	public PlayerController playerStats;
 	private string message;
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,6 @@ public class KittenController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float turnSpeed = 45.0f;
 		if (Input.GetMouseButtonDown (0)) {
 			RaycastHit hit;
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
@@ -25,6 +24,11 @@ public class KittenController : MonoBehaviour {
 					if(playerStats.kittens_collected == 0)
 					{
 						message = "Help! My kittens have gone missing! Can you help collect all 7 of them?";
+						isVisible = true;
+					}
+					else if(playerStats.kittens_collected == 1)
+					{
+						message = "You've found one kitten so far! Just 6 more to go!";
 						isVisible = true;
 					}
 					else if(playerStats.kittens_collected < 7)
