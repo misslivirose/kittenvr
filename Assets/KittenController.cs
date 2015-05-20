@@ -19,7 +19,7 @@ public class KittenController : MonoBehaviour {
 			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			if (Physics.Raycast (ray, out hit))
 			if (hit.transform != null) {
-				if (hit.transform.gameObject == this.gameObject) {
+				if (hit.transform.gameObject.tag.Equals( this.gameObject.tag)) {
 
 					if(playerStats.kittens_collected == 0)
 					{

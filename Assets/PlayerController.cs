@@ -41,14 +41,20 @@ public class PlayerController : MonoBehaviour {
 	{
 		if (Input.GetMouseButtonDown(0)) {
 			RaycastHit hit;
+			Debug.Log ("Clicked");
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			if (Physics.Raycast(ray, out hit))
 			if (hit.transform != null) {
+				Debug.Log (hit.transform.position);
 				if(hit.transform.gameObject.tag == "kitten")
 				{
 					kittens_collected++;
 					Destroy(hit.transform.transform.gameObject);
 					Debug.Log("You've collected " + kittens_collected + " kittens!");
+				}
+				if(hit.transform.gameObject.tag.Equals ("leader"))
+				{
+					Debug.Log ("Hit Leader");
 				}
 			}
 		}
