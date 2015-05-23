@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
@@ -21,18 +22,6 @@ public class PlayerController : MonoBehaviour {
 	 **/
 	void Update () {
 		MouseClickListener ();
-		CheckPosition ();
-	}
-
-	/**
-	 * Check and see if the user has jumped off of the level.
-	 * If so, reset the level. 
-	 **/
-	void CheckPosition()
-	{
-		if (this.gameObject.transform.position.y < 0) {
-			Application.LoadLevel(Application.loadedLevel);
-		}
 	}
 
 	/**
@@ -43,14 +32,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		if (Input.GetMouseButtonDown(0)) {
 			RaycastHit hit;
-
-			GameObject _cursorBox = GameObject.FindGameObjectWithTag("target");
-			_cursorBox.transform.position = Input.mousePosition;
-
-			Vector3 _anchorPos = GameObject.FindGameObjectWithTag("anchor").transform.position;
-			Vector3 _targetPos = GameObject.FindGameObjectWithTag("target").transform.position;
-
-			if (Physics.Linecast(_anchorPos, _targetPos, out hit))
+			if (Physics.Raycast(transform.position, transform.forward, out hit, 10))
 			{
 				Collider _hit = hit.collider;
 				GameObject _VICTIM = hit.collider.gameObject;
@@ -61,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 					Debug.Log("You've collected " + kittens_collected + " kittens!");
 				}
 				else if (_VICTIM.tag.Equals("leader")) {
-					
+					Debug.Log("Hit Leader");
 					if(kittens_collected == 0)
 					{
 						message = "Help! My kittens have gone missing! Can you help collect all 7 of them?";
@@ -102,12 +84,13 @@ public class PlayerController : MonoBehaviour {
 			isVisible = false;
 			timer = 0f;
 		}
+		Display ();
 	}
 
-	void OnGUI()
+	void Display()
 	{
 		if (isVisible) {
-			GUI.Box (new Rect (Screen.width / 2 - 290, Screen.height / 1 - 100, 600, 80), message);
+
 		}
 	}
 }

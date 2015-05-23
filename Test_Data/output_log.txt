@@ -1,0 +1,30 @@
+Initialize engine version: 5.0.2f1 (0b02744d4013)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) Iris(TM) Graphics 5100 (ID=0xa2e)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.058 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+desktop: 2560x1600 60Hz; virtual: 12800x2160 at 0,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Livi\Documents\Github Projects\kittenvr\Test_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 179c -> priority: 1 
