@@ -7,8 +7,11 @@ public class PlayerController : MonoBehaviour
 
 	public int kittens_collected = 0;
 	public bool isVisible = false;
+	public CanvasGroup _guiCanvas;
 	private float timer = 0.0f;
 	private string message;
+	private bool hasDisplayedFinal = false;
+
 
 	/**
 	 * Use this for initialization
@@ -53,8 +56,8 @@ public class PlayerController : MonoBehaviour
 				}
 				ResetOnFall();
 			}
-			GUIFunction ();
 		}
+		GUIFunction ();
 	}
 	/**
 	 * When we detect a hit on our input method, call this method.
@@ -82,10 +85,9 @@ public class PlayerController : MonoBehaviour
 				message = "You've found " + kittens_collected + " kittens so far! Just " + (7 - kittens_collected) + " left to go!";
 				isVisible = true;
 			} else {
-				message = "You've found them all! Thank you so meouch!";
-				isVisible = true;
-				System.Threading.Thread.Sleep (2000);
-				Application.LoadLevel (Application.loadedLevel);
+			
+				StartCoroutine(DisplayEndText(5f));
+				StartCoroutine(ResetLevel());	
 			}
 		}
 	}
@@ -111,6 +113,11 @@ public class PlayerController : MonoBehaviour
 	{
 		if (isVisible) {
 
+			_guiCanvas.alpha = 1;
+			Text t = _guiCanvas.GetComponentInChildren<Text> ();
+			t.text = message;
+		} else {
+			_guiCanvas.alpha = 0;
 		}
 	}
 	/**
@@ -121,5 +128,22 @@ public class PlayerController : MonoBehaviour
 		if (this.transform.position.y < 0) {
 			Application.LoadLevel (Application.loadedLevel);
 		}
+	}
+	/**
+	 * Helper methods for winning the game 
+	 **/
+	IEnumerator DisplayEndText(float wait)
+	{
+		message = "You've found them all! Thank you so meouch!";
+		isVisible = true;
+		yield return new WaitForSeconds (wait);
+		hasDisplayedFinal = true;
+	}
+	IEnumerator ResetLevel()
+	{
+		while (!hasDisplayedFinal) {
+			yield return new WaitForSeconds(0.1f);
+		}
+		Application.LoadLevel (Application.loadedLevel);
 	}
 }
