@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
 	void Update ()
 	{
 			MouseClickListener ();
+			ResetOnFall();
 	}
 
 	/**
@@ -54,7 +55,6 @@ public class PlayerController : MonoBehaviour
 				{
 					KittenClick(hit);
 				}
-				ResetOnFall();
 			}
 		}
 		GUIFunction ();
