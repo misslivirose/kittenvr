@@ -27,8 +27,9 @@ public class PlayerController : MonoBehaviour
 	 **/
 	void Update ()
 	{
-			MouseClickListener ();
-			ResetOnFall();
+		MouseClickListener ();
+		ResetOnFall();
+		ListenForReset ();
 	}
 
 	/**
@@ -67,7 +68,6 @@ public class PlayerController : MonoBehaviour
 	 **/
 	void KittenClick (RaycastHit hit)
 	{
-		Collider _hit = hit.collider;
 		GameObject _VICTIM = hit.collider.gameObject;
 		if (_VICTIM.tag.Equals ("kitten")) {
 			kittens_collected++;
@@ -86,8 +86,7 @@ public class PlayerController : MonoBehaviour
 				isVisible = true;
 			} else {
 			
-				StartCoroutine(DisplayEndText(5f));
-				StartCoroutine(ResetLevel());	
+				StartCoroutine(DisplayEndText(5f));	
 			}
 		}
 	}
@@ -134,16 +133,20 @@ public class PlayerController : MonoBehaviour
 	 **/
 	IEnumerator DisplayEndText(float wait)
 	{
-		message = "You've found them all! Thank you so meouch!";
+		message = "You've found them all! Thank you so meouch! \n Press 'J' to play again.";
 		isVisible = true;
 		yield return new WaitForSeconds (wait);
 		hasDisplayedFinal = true;
 	}
-	IEnumerator ResetLevel()
+	void ListenForReset()
 	{
-		while (!hasDisplayedFinal) {
-			yield return new WaitForSeconds(0.1f);
+		if (hasDisplayedFinal == true) {
+
+			if (Input.GetKeyDown (KeyCode.J)) {
+				Application.LoadLevel(Application.loadedLevel);
+			}
+
 		}
-		Application.LoadLevel (Application.loadedLevel);
 	}
+
 }
