@@ -9,13 +9,14 @@ Right now, I'm using the Oculus Runtime 0.5.1 and the Unity plugin for 0.4.4 (ne
 Downloadable versions should be arriving shortly after fixing the most prominent bugs. If there's specific input device or SDK you'd like to see me (attempt!) to support, please let me know!
 
 ### Recently Completed
+* Added reset trigger with 'J' key
+* Published WebGL non-VR build (http://kittenvr.com/play)
 * Separate support for VR & Non-VR devices
 * Raycast collisions working for VR & Non-VR
 * UI for non-VR player working
-* Fix where text wasn't displayed before restarting scene
 
 ### Upcoming Tasks
 * Get VR UI Working
-* Create playable builds (Non-VR WebGL preview for site, with download option for VR)
+* Create VR playable download option 
 * Add support for Nod ring
 * Experiment with the Open Source VR (OSVR) SDK
