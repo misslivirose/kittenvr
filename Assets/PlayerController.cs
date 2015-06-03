@@ -110,14 +110,29 @@ public class PlayerController : MonoBehaviour
 	 **/
 	void Display ()
 	{
-		if (isVisible) {
+		//We are using a regular camera, nothing special
+		if (this.tag == "NoVRPlayer") {
+			if (isVisible) {
+				_guiCanvas.alpha = 1;
+				Text t = _guiCanvas.GetComponentInChildren<Text> ();
+				t.text = message;
+			} else {
+				_guiCanvas.alpha = 0;
+			}
+		} 
+		//We are playing with the Oculus headset, need to adjust canvas positioning
+		else {
+			if (isVisible) {
+				_guiCanvas.alpha = 1;
+				Text t = _guiCanvas.GetComponentInChildren<Text> ();
+				t.text = message;
+			} else {
+				_guiCanvas.alpha = 0;
+			}
 
-			_guiCanvas.alpha = 1;
-			Text t = _guiCanvas.GetComponentInChildren<Text> ();
-			t.text = message;
-		} else {
-			_guiCanvas.alpha = 0;
 		}
+		Debug.Log ("Canvas Coordinates: " + _guiCanvas.transform.position);
+
 	}
 	/**
 	 * Check if character has falled off level (FPSController only currently) 
