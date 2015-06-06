@@ -189,9 +189,10 @@ public class PlayerController : MonoBehaviour
 	void FollowPlayer(GameObject kitten)
 	{
 		GameObject player = GameObject.FindGameObjectWithTag ("Player");
-		kitten.transform.parent = player.transform; 
-		Vector3 scale = new Vector3(1f, 1f, -5f * kittens_collected);
-		kitten.transform.position = scale;
+		kitten.transform.parent = player.transform;
+		Vector3 scale = new Vector3(0f, 0f, (-5f * kittens_collected));
+		kitten.transform.localPosition = scale;
+
 
 
 
