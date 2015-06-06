@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
 		GameObject _VICTIM = hit.collider.gameObject;
 		if (_VICTIM.tag.Equals ("kitten")) {
 			kittens_collected++;
-			Destroy (hit.transform.transform.gameObject);
+			FollowPlayer (_VICTIM);
 			Debug.Log ("You've collected " + kittens_collected + " kittens!");
 		} else if (_VICTIM.tag.Equals ("leader")) {
 			Debug.Log ("Hit Leader");
@@ -179,5 +179,22 @@ public class PlayerController : MonoBehaviour
 		Quaternion rot = Quaternion.Slerp (baseObject.transform.rotation, Quaternion.LookRotation (dist), speed * Time.deltaTime);
 		baseObject.transform.rotation = rot;
 		baseObject.transform.eulerAngles = new Vector3 (0, baseObject.transform.eulerAngles.y, 0);	
+	}
+	/**
+	 * "Collect a kitten by having it follow the player on click. 
+	 *  Kitten needs to : reparent to player
+	 * 					  orient behind player
+	 * 					  set animation to walk
+	 **/
+	void FollowPlayer(GameObject kitten)
+	{
+		GameObject player = GameObject.FindGameObjectWithTag ("Player");
+		kitten.transform.parent = player.transform; 
+		Vector3 scale = new Vector3(1f, 1f, -5f * kittens_collected);
+		kitten.transform.position = scale;
+
+
+
+		//Destroy (kitten);
 	}
 }
