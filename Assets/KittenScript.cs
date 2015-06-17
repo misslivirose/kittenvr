@@ -17,8 +17,9 @@ public class KittenScript : MonoBehaviour {
 
 	public void CollectMe()
 	{
-		Debug.Log ("Hit kitten");
+        Debug.Log("Hit kitten");
 		_gameController.AddKitten ();
-		GameObject.Destroy (this); //Replace with follow function in future
+        GameObject _body = gameObject;
+		GameObject.Destroy (_body); //Replace with follow function in future
 	}
 }
