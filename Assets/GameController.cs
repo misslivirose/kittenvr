@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 /**
  * The GameController class helps clean up the behavior of the game.
@@ -19,8 +20,22 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
+        if (Input.GetButtonDown("Submit"))
+        {
+
+            Debug.Log("Registered press");
+            ExecuteEvents.Execute<IPointerClickHandler>(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerClickHandler);
+
+        }
+
 	}
+
+    // For the click method
+    public void OnClick()
+    {
+
+    }
 
 	// Return kittens collected
 	public int NumberKittens()

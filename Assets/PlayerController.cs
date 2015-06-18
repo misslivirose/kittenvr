@@ -5,12 +5,12 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 	private int kittens_collected = 0;
-
-
-
 	private string message;
 	private bool hasDisplayedFinal = false;
 	private bool isInVRMode;
+    public GameObject _anchor;
+    public GameController _controller;
+    public GameObject _kittenLeader;
 
 	/**
 	 * Use this for initialization
@@ -35,7 +35,33 @@ public class PlayerController : MonoBehaviour
 	void Update ()
 	{
 		ResetOnFall();
+        CheckCollision();
 	}
+
+    /**
+     * See if the user has clicked something. If so, evaluate what was clicked and perform correct action 
+     **/
+    void CheckCollision()
+    {
+        if(Input.GetMouseButtonDown(0) || Input.GetButtonDown("Submit"))
+        {
+            RaycastHit _hit;
+            Ray _ray = new Ray(_anchor.transform.position, _anchor.transform.forward);
+            if(Physics.Raycast(_ray, out _hit))
+            {
+                if(_hit.collider.tag == "leader")
+                {
+                    _kittenLeader.SendMessage("KittenLeaderClick");
+                }
+                else if (_hit.collider.tag == "kitten")
+                {
+                    GameObject _kitten = _hit.collider.gameObject;
+                    _controller.AddKitten();
+                    Destroy(_kitten);
+                }
+            }
+        }
+    }
 
 
 	/**

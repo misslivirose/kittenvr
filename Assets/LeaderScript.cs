@@ -23,7 +23,6 @@ public class LeaderScript : MonoBehaviour{
 
 	public void KittenLeaderClick()
 	{
-		Debug.Log ("Hit Leader");
 		int kittens_collected = _gameController.NumberKittens ();
 		//Call function to orient text facing user
 		if (kittens_collected == 0) {
