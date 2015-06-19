@@ -36,6 +36,7 @@ public class LeaderScript : MonoBehaviour{
 			isVisible = true;
 		} else {
 			message = "You've found them all! Thank you so meouch! \n Press 'J' to play again.";
+            isVisible = true;
 		}
 		GUIFunction ();
 	}
