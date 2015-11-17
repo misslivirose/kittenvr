@@ -100,7 +100,7 @@ namespace HeurekaGames
                     int startIndex = line.LastIndexOf(" ");
                     buildReport.AddDependency(line.Substring(startIndex, stringLength - startIndex));
                 }
-                while (!SR.EndOfStream && !(line = SR.ReadLine()).Contains("Used Assets,")) ;
+                while (!SR.EndOfStream && !(line = SR.ReadLine()).Contains("Used Assets")) ;
                 bool assetAnalysisComplete = false;
                 while (!SR.EndOfStream && !assetAnalysisComplete)
                 {
@@ -177,7 +177,7 @@ namespace HeurekaGames
             foreach (UnityEngine.Object dir in AssetHunterMainWindow.Instance.settings.m_DirectoryExcludes)
             {
                 //TODO Can this be done more elegantly
-                int startingIndex = Application.dataPath.Length-6;
+                int startingIndex = Application.dataPath.Length - 6;
                 string relativePath = path.Substring(startingIndex, path.Length - startingIndex);
                 UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath(relativePath, typeof(UnityEngine.Object));
 
@@ -188,6 +188,7 @@ namespace HeurekaGames
                 }
             }
 
+            //Exclude types and folders that should not be reviewed
             string[] assetsInDirectory = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly)
                 .Where(name => !name.ToLowerInvariant().EndsWith(".meta")
                     && (!name.ToLowerInvariant().EndsWith(".unity"))
@@ -264,7 +265,7 @@ namespace HeurekaGames
         }
 
         public static void UnloadUnused()
-        {      
+        {
 #if UNITY_5
             EditorUtility.UnloadUnusedAssetsImmediate();
 #else
@@ -272,5 +273,89 @@ namespace HeurekaGames
 #endif
 
         }
+
+        public static string GetUnityEngineAssemblyPath()
+        {
+            System.Reflection.Assembly assembly = System.AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(val => val.Location.EndsWith("UnityEngine.dll"));
+            return assembly.Location;
+        }
+
+        public static string GetScriptAssemblyPath()
+        {
+            DirectoryInfo rootDirInfo = Directory.GetParent(Application.dataPath);
+
+            string[] assemblyDirectories = Directory.GetDirectories(@rootDirInfo.FullName, "ScriptAssemblies", SearchOption.AllDirectories);
+
+            string scriptAssembly = string.Empty;
+
+            foreach (string dir in assemblyDirectories)
+            { 
+                scriptAssembly = (Directory.GetFiles(dir, "*.dll").FirstOrDefault(val => val.EndsWith("Assembly-CSharp.dll")));
+
+                if (!string.IsNullOrEmpty(scriptAssembly))
+                    return scriptAssembly;
+            }
+
+            Debug.LogError("Could not find script assembly");
+            return string.Empty;
+        }
+
+        //TODO Complete unused scripts analysis
+
+       /* public static void GetAddedComponents()
+        {
+            string unityEngineAssemblyPath = GetUnityEngineAssemblyPath();
+            string scriptAssemblyPath = GetScriptAssemblyPath();
+
+            if (string.IsNullOrEmpty(scriptAssemblyPath))
+            {
+                Debug.LogError("ScriptAssembly could not be found");
+                return;
+            }
+
+            Mono.Cecil.AssemblyDefinition scriptAssemblyDef = Mono.Cecil.AssemblyDefinition.ReadAssembly(scriptAssemblyPath);
+            Mono.Cecil.AssemblyDefinition unityEngineAssemblyDef = Mono.Cecil.AssemblyDefinition.ReadAssembly(unityEngineAssemblyPath);
+
+            Mono.Cecil.ModuleDefinition scriptModuleDef = scriptAssemblyDef.MainModule;
+            Mono.Cecil.ModuleDefinition unityEngineModuleDef = unityEngineAssemblyDef.MainModule;
+
+            //Find the MethodDefinition for the method you're interested in:
+            Mono.Cecil.TypeDefinition unityGameObjectTypeDef = unityEngineModuleDef.Types.FirstOrDefault(x => x.Name == "GameObject"); // this is LINQ
+            List<Mono.Cecil.MethodDefinition> addComponentMethods = unityGameObjectTypeDef.Methods.Where(x => x.Name == "AddComponent").ToList<Mono.Cecil.MethodDefinition>(); //if your method is void ShowTooltip(), just type in "ShowTooltip"
+
+            foreach (Mono.Cecil.MethodDefinition def in addComponentMethods)
+            {
+                Debug.Log("************Method: " + def.FullName);
+            }
+
+            //Now parse all Classes (types) in your assembly, parse all their Methods, parse all their Instructions, parse all their Operands and see if it's referencing yourMethod.
+            foreach (Mono.Cecil.TypeDefinition td in scriptModuleDef.Types)
+                foreach (Mono.Cecil.MethodDefinition md in td.Methods)
+                    if (md.HasBody)
+                        foreach (Mono.Cecil.Cil.Instruction inst in md.Body.Instructions)
+                            foreach (Mono.Cecil.MethodDefinition mDef in addComponentMethods)
+                            {
+                                //Perhaps some info on some to fix the generics issue http://stackoverflow.com/questions/4968755/mono-cecil-call-generic-base-class-method-from-other-assembly
+                                if(inst!=null && inst.Operand!=null)
+                                    if (inst.Operand.ToString().Contains("AddComponent"))
+                                        if (inst.Operand.ToString() == mDef.FullName) //TODO: Need a better way to compare. Generics doesnt work
+                                            Debug.Log("your method is being called here");
+                            }
+        }
+
+        public static void PrintMethods(Mono.Cecil.MethodDefinition methodDef)
+        {
+            Console.WriteLine(methodDef.Name);
+            foreach (var instruction in methodDef.Body.Instructions)
+            {
+                if (instruction.OpCode == Mono.Cecil.Cil.OpCodes.Ldfld)
+                {
+                    Mono.Cecil.MethodReference methodRef = instruction.Operand as Mono.Cecil.MethodReference;
+
+                    if (methodRef != null)
+                        Console.WriteLine("\t" + methodRef.Name);
+                }
+            }
+        }*/
     }
 }

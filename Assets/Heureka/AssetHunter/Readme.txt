@@ -77,5 +77,12 @@ Version notes:
 -Made sure it compiles on Windows Store builds
 
 1.3.3
--Fixed issue when user have own editor script called PlayerSettings
--Ready for Unity 5x
+-Unity5 ready
+-Fixed issue when user have own editor script named PlayerSettings
+
+1.3.4
+-Fixed issue when user have own script named Environment
+-Fixed issue when user have own script named EditorUtils
+
+1.3.5
+-Fixed issue with Unity changing build log format in 5.2.1
