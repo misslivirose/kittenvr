@@ -1,0 +1,37 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  1.234 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2160x1440 59Hz; virtual: 2160x1440 at 0,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\livieric\Documents\GitHub Projects\kittenvr\KittenVR_Data\Managed\System.dll (this message is harmless)
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 400)
+
+True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3be4 -> priority: 1 
