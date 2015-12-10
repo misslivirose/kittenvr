@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: a5249ec7060db1c4ba3cef87cb3d1c19
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bell 1
+    100002: Bell 2
+    100004: Bell 3
+    100006: Box
+    100008: Heart 1
+    100010: Heart 2
+    100012: Heart 3
+    100014: Hollow Heart 1
+    100016: Hollow Heart 2
+    100018: Hollow Heart 3
+    100020: Hollow Star 1
+    100022: Hollow Star 2
+    100024: Hollow Star 3
+    100026: Hollow Star 4
+    100028: Lights
+    100030: Long Ornament 1
+    100032: Long Ornament 2
+    100034: Long Ornament 3
+    100036: Long Ornament 4
+    100038: Long Ornament 5
+    100040: Ornament 1
+    100042: Ornament 10
+    100044: Ornament 11
+    100046: Ornament 12
+    100048: Ornament 13
+    100050: Ornament 14
+    100052: Ornament 15
+    100054: Ornament 2
+    100056: Ornament 3
+    100058: Ornament 4
+    100060: Ornament 5
+    100062: Ornament 6
+    100064: Ornament 7
+    100066: Ornament 8
+    100068: Ornament 9
+    100070: Ornament Tree 1
+    100072: Ornament Tree 2
+    100074: //RootNode
+    100076: Snowflake 1
+    100078: Snowflake 2
+    100080: Snowflake 3
+    100082: Star 1
+    100084: Star 2
+    100086: Star 3
+    100088: Star 4
+    100090: Star 5
+    100092: Star 6
+    400000: Bell 1
+    400002: Bell 2
+    400004: Bell 3
+    400006: Box
+    400008: Heart 1
+    400010: Heart 2
+    400012: Heart 3
+    400014: Hollow Heart 1
+    400016: Hollow Heart 2
+    400018: Hollow Heart 3
+    400020: Hollow Star 1
+    400022: Hollow Star 2
+    400024: Hollow Star 3
+    400026: Hollow Star 4
+    400028: Lights
+    400030: Long Ornament 1
+    400032: Long Ornament 2
+    400034: Long Ornament 3
+    400036: Long Ornament 4
+    400038: Long Ornament 5
+    400040: Ornament 1
+    400042: Ornament 10
+    400044: Ornament 11
+    400046: Ornament 12
+    400048: Ornament 13
+    400050: Ornament 14
+    400052: Ornament 15
+    400054: Ornament 2
+    400056: Ornament 3
+    400058: Ornament 4
+    400060: Ornament 5
+    400062: Ornament 6
+    400064: Ornament 7
+    400066: Ornament 8
+    400068: Ornament 9
+    400070: Ornament Tree 1
+    400072: Ornament Tree 2
+    400074: //RootNode
+    400076: Snowflake 1
+    400078: Snowflake 2
+    400080: Snowflake 3
+    400082: Star 1
+    400084: Star 2
+    400086: Star 3
+    400088: Star 4
+    400090: Star 5
+    400092: Star 6
+    2300000: Bell 1
+    2300002: Bell 2
+    2300004: Bell 3
+    2300006: Box
+    2300008: Heart 1
+    2300010: Heart 2
+    2300012: Heart 3
+    2300014: Hollow Heart 1
+    2300016: Hollow Heart 2
+    2300018: Hollow Heart 3
+    2300020: Hollow Star 1
+    2300022: Hollow Star 2
+    2300024: Hollow Star 3
+    2300026: Hollow Star 4
+    2300028: Lights
+    2300030: Long Ornament 1
+    2300032: Long Ornament 2
+    2300034: Long Ornament 3
+    2300036: Long Ornament 4
+    2300038: Long Ornament 5
+    2300040: Ornament 1
+    2300042: Ornament 10
+    2300044: Ornament 11
+    2300046: Ornament 12
+    2300048: Ornament 13
+    2300050: Ornament 14
+    2300052: Ornament 15
+    2300054: Ornament 2
+    2300056: Ornament 3
+    2300058: Ornament 4
+    2300060: Ornament 5
+    2300062: Ornament 6
+    2300064: Ornament 7
+    2300066: Ornament 8
+    2300068: Ornament 9
+    2300070: Ornament Tree 1
+    2300072: Ornament Tree 2
+    2300074: Snowflake 1
+    2300076: Snowflake 2
+    2300078: Snowflake 3
+    2300080: Star 1
+    2300082: Star 2
+    2300084: Star 3
+    2300086: Star 4
+    2300088: Star 5
+    2300090: Star 6
+    3300000: Bell 1
+    3300002: Bell 2
+    3300004: Bell 3
+    3300006: Box
+    3300008: Heart 1
+    3300010: Heart 2
+    3300012: Heart 3
+    3300014: Hollow Heart 1
+    3300016: Hollow Heart 2
+    3300018: Hollow Heart 3
+    3300020: Hollow Star 1
+    3300022: Hollow Star 2
+    3300024: Hollow Star 3
+    3300026: Hollow Star 4
+    3300028: Lights
+    3300030: Long Ornament 1
+    3300032: Long Ornament 2
+    3300034: Long Ornament 3
+    3300036: Long Ornament 4
+    3300038: Long Ornament 5
+    3300040: Ornament 1
+    3300042: Ornament 10
+    3300044: Ornament 11
+    3300046: Ornament 12
+    3300048: Ornament 13
+    3300050: Ornament 14
+    3300052: Ornament 15
+    3300054: Ornament 2
+    3300056: Ornament 3
+    3300058: Ornament 4
+    3300060: Ornament 5
+    3300062: Ornament 6
+    3300064: Ornament 7
+    3300066: Ornament 8
+    3300068: Ornament 9
+    3300070: Ornament Tree 1
+    3300072: Ornament Tree 2
+    3300074: Snowflake 1
+    3300076: Snowflake 2
+    3300078: Snowflake 3
+    3300080: Star 1
+    3300082: Star 2
+    3300084: Star 3
+    3300086: Star 4
+    3300088: Star 5
+    3300090: Star 6
+    4300000: Lights
+    4300002: Box
+    4300004: Heart 3
+    4300006: Heart 2
+    4300008: Hollow Heart 3
+    4300010: Hollow Heart 2
+    4300012: Long Ornament 5
+    4300014: Long Ornament 3
+    4300016: Long Ornament 4
+    4300018: Long Ornament 2
+    4300020: Ornament 9
+    4300022: Ornament 10
+    4300024: Ornament 12
+    4300026: Ornament 11
+    4300028: Ornament 15
+    4300030: Ornament 14
+    4300032: Ornament 13
+    4300034: Ornament 5
+    4300036: Ornament 6
+    4300038: Ornament 8
+    4300040: Ornament 7
+    4300042: Ornament 3
+    4300044: Ornament 4
+    4300046: Ornament 2
+    4300048: Hollow Star 3
+    4300050: Hollow Star 4
+    4300052: Hollow Star 2
+    4300054: Star 6
+    4300056: Star 5
+    4300058: Star 3
+    4300060: Star 4
+    4300062: Star 2
+    4300064: Ornament Tree 2
+    4300066: Hollow Star 1
+    4300068: Star 1
+    4300070: Snowflake 3
+    4300072: Snowflake 2
+    4300074: Snowflake 1
+    4300076: Hollow Heart 1
+    4300078: Heart 1
+    4300080: Ornament Tree 1
+    4300082: Long Ornament 1
+    4300084: Ornament 1
+    4300086: Bell 3
+    4300088: Bell 2
+    4300090: Bell 1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: ff1563768881a46439f8bf127079cee8
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chest
+    100004: forearm.L
+    100006: forearm.R
+    100008: head
+    100010: hips
+    100012: neck.P1
+    100014: neck.P2
+    100016: shin.L
+    100018: shin.R
+    100020: spine
+    100022: tail.P1
+    100024: tail.P2
+    100026: tail.P3
+    100028: tailbone
+    100030: thigh.L
+    100032: thigh.R
+    100034: upper_arm.L
+    100036: upper_arm.R
+    100038: metarig
+    100040: Reindeer
+    400000: //RootNode
+    400002: chest
+    400004: forearm.L
+    400006: forearm.R
+    400008: head
+    400010: hips
+    400012: neck.P1
+    400014: neck.P2
+    400016: shin.L
+    400018: shin.R
+    400020: spine
+    400022: tail.P1
+    400024: tail.P2
+    400026: tail.P3
+    400028: tailbone
+    400030: thigh.L
+    400032: thigh.R
+    400034: upper_arm.L
+    400036: upper_arm.R
+    400038: metarig
+    400040: Reindeer
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Reindeer
+    7400000: Reindeer|Reindeer_Idle
+    7400002: Reindeer_Idle
+    7400004: Reindeer_Run_2
+    9500000: //RootNode
+    13700000: Reindeer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reindeer_Idle
+      takeName: metarig|Reindeer_Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 180
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/spine
+        weight: 1
+      - path: metarig/hips/spine/chest
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1/neck.P2
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1/neck.P2/head
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: metarig/hips/thigh.L
+        weight: 1
+      - path: metarig/hips/thigh.L/shin.L
+        weight: 1
+      - path: metarig/hips/thigh.R
+        weight: 1
+      - path: metarig/hips/thigh.R/shin.R
+        weight: 1
+      - path: metarig/tailbone
+        weight: 1
+      - path: metarig/tailbone/tail.P1
+        weight: 1
+      - path: metarig/tailbone/tail.P1/tail.P2
+        weight: 1
+      - path: metarig/tailbone/tail.P1/tail.P2/tail.P3
+        weight: 1
+      - path: Reindeer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reindeer_Run_2
+      takeName: metarig|Reindeer_Run_2
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/hips
+        weight: 1
+      - path: metarig/hips/spine
+        weight: 1
+      - path: metarig/hips/spine/chest
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1/neck.P2
+        weight: 1
+      - path: metarig/hips/spine/chest/neck.P1/neck.P2/head
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.L
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.L/forearm.L
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.R
+        weight: 1
+      - path: metarig/hips/spine/chest/upper_arm.R/forearm.R
+        weight: 1
+      - path: metarig/hips/thigh.L
+        weight: 1
+      - path: metarig/hips/thigh.L/shin.L
+        weight: 1
+      - path: metarig/hips/thigh.R
+        weight: 1
+      - path: metarig/hips/thigh.R/shin.R
+        weight: 1
+      - path: metarig/tailbone
+        weight: 1
+      - path: metarig/tailbone/tail.P1
+        weight: 1
+      - path: metarig/tailbone/tail.P1/tail.P2
+        weight: 1
+      - path: metarig/tailbone/tail.P1/tail.P2/tail.P3
+        weight: 1
+      - path: Reindeer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 2bbb4b5ae44ba5c4b8e224f04dbfad9e
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Circle.004
+    100002: Circle.005
+    100004: Circle.010
+    100006: Circle.011
+    100008: Circle.012
+    100010: Circle.013
+    100012: Circle.014
+    100014: Circle.015
+    100016: Circle.016
+    100018: Circle.017
+    100020: Circle.018
+    100022: Circle.019
+    100024: Circle.021
+    100026: Circle.022
+    100028: Circle.023
+    100030: Circle.024
+    100032: Circle.025
+    100034: Circle.026
+    100036: Circle.027
+    100038: Circle.028
+    100040: Circle.029
+    100042: Circle.030
+    100044: Circle.031
+    100046: Circle.032
+    100048: Circle.033
+    100050: Circle.034
+    100052: Circle.035
+    100054: Circle.036
+    100056: Circle.037
+    100058: Circle.038
+    100060: Circle.039
+    100062: Circle.040
+    100064: Circle.041
+    100066: //RootNode
+    100068: Cube.001
+    100070: Cube.002
+    100072: Cube.013
+    100074: Cylinder.004
+    100076: Cylinder.005
+    100078: Cylinder.006
+    100080: Plane.001
+    100082: Plane.008
+    100084: Plane.009
+    100086: Plane.010
+    100088: Plane.013
+    100090: Plane.014
+    100092: Plane.015
+    100094: Plane.016
+    100096: Plane.017
+    100098: Plane.018
+    100100: Plane.019
+    100102: Plane.020
+    100104: Plane.021
+    100106: Plane.022
+    100108: Plane.023
+    100110: Plane.024
+    100112: Plane.025
+    100114: Plane.026
+    100116: Plane.027
+    100118: Plane.028
+    100120: Plane.029
+    100122: Plane.030
+    100124: Plane.031
+    100126: Plane.032
+    100128: Plane.033
+    100130: Plane.034
+    100132: Plane.035
+    100134: Plane.036
+    100136: Plane.037
+    100138: Plane.038
+    100140: Plane.039
+    100142: Plane.040
+    100144: Plane.041
+    100146: Plane.042
+    100148: Plane.043
+    100150: Plane.044
+    100152: Sphere.004
+    100154: Candycane 1
+    100156: Candycane 2
+    100158: Candycane 3
+    100160: Cookie 2 Star 1
+    100162: Cookie 2 Star 2
+    100164: Cookie 2 Star 3
+    100166: Cookie 2 Star 4
+    100168: Cookie Bell 1
+    100170: Cookie Bell 2
+    100172: Cookie Bell 3
+    100174: Cookie Box 1
+    100176: Cookie Box 2
+    100178: Cookie Box 3
+    100180: Cookie Candycane 1
+    100182: Cookie Candycane 2
+    100184: Cookie Candycane 3
+    100186: Cookie Candycane 4
+    100188: Cookie Donut 1
+    100190: Cookie Donut 2
+    100192: Cookie Gingerbread Man 1
+    100194: Cookie Gingerbread Man 2
+    100196: Cookie Gingerbread Man 3
+    100198: Cookie Gingerbread Man 4
+    100200: Cookie Gingerbread Man 5
+    100202: Cookie Heart 1
+    100204: Cookie Heart 2
+    100206: Cookie Heart 3
+    100208: Cookie Heart 4
+    100210: Cookie Ornament 1
+    100212: Cookie Ornament 2
+    100214: Cookie Ornament 3
+    100216: Cookie Ornament 4
+    100218: Cookie Round 1
+    100220: Cookie Round 2
+    100222: Cookie Round 3
+    100224: Cookie Round 4
+    100226: Cookie Snowman 1
+    100228: Cookie Snowman 2
+    100230: Cookie Snowman 3
+    100232: Cookie Sock 1
+    100234: Cookie Sock 2
+    100236: Cookie Sock 3
+    100238: Cookie Star 1
+    100240: Cookie Star 2
+    100242: Cookie Star 3
+    100244: Cookie Star 4
+    100246: Cookie Star 5
+    100248: Cookie Tree 1
+    100250: Cookie Tree 2
+    100252: Cookie Tree 3
+    100254: Cookie Tree 4
+    100256: Cookie Tree 5
+    100258: Cookie Wearth
+    100260: Cupcake 1
+    100262: Cupcake 2
+    100264: Cupcake 3
+    100266: Cupcake 4
+    100268: Flat cupcake 1
+    100270: Flat cupcake 2
+    100272: Flat cupcake 3
+    100274: Lolipop
+    100276: Plate A1
+    100278: Plate A2
+    100280: Plate B1
+    100282: Plate B2
+    100284: Plate C1
+    100286: Plate C2
+    100288: Plate D1
+    100290: Plate D2
+    100292: Round cupcake 1
+    100294: Round cupcake 2
+    100296: Round cupcake 3
+    100298: Round lolipop 1
+    100300: Round lolipop 2
+    100302: Tree lollipop 1
+    100304: Tree lollipop 2
+    400000: Circle.004
+    400002: Circle.005
+    400004: Circle.010
+    400006: Circle.011
+    400008: Circle.012
+    400010: Circle.013
+    400012: Circle.014
+    400014: Circle.015
+    400016: Circle.016
+    400018: Circle.017
+    400020: Circle.018
+    400022: Circle.019
+    400024: Circle.021
+    400026: Circle.022
+    400028: Circle.023
+    400030: Circle.024
+    400032: Circle.025
+    400034: Circle.026
+    400036: Circle.027
+    400038: Circle.028
+    400040: Circle.029
+    400042: Circle.030
+    400044: Circle.031
+    400046: Circle.032
+    400048: Circle.033
+    400050: Circle.034
+    400052: Circle.035
+    400054: Circle.036
+    400056: Circle.037
+    400058: Circle.038
+    400060: Circle.039
+    400062: Circle.040
+    400064: Circle.041
+    400066: //RootNode
+    400068: Cube.001
+    400070: Cube.002
+    400072: Cube.013
+    400074: Cylinder.004
+    400076: Cylinder.005
+    400078: Cylinder.006
+    400080: Plane.001
+    400082: Plane.008
+    400084: Plane.009
+    400086: Plane.010
+    400088: Plane.013
+    400090: Plane.014
+    400092: Plane.015
+    400094: Plane.016
+    400096: Plane.017
+    400098: Plane.018
+    400100: Plane.019
+    400102: Plane.020
+    400104: Plane.021
+    400106: Plane.022
+    400108: Plane.023
+    400110: Plane.024
+    400112: Plane.025
+    400114: Plane.026
+    400116: Plane.027
+    400118: Plane.028
+    400120: Plane.029
+    400122: Plane.030
+    400124: Plane.031
+    400126: Plane.032
+    400128: Plane.033
+    400130: Plane.034
+    400132: Plane.035
+    400134: Plane.036
+    400136: Plane.037
+    400138: Plane.038
+    400140: Plane.039
+    400142: Plane.040
+    400144: Plane.041
+    400146: Plane.042
+    400148: Plane.043
+    400150: Plane.044
+    400152: Sphere.004
+    400154: Candycane 1
+    400156: Candycane 2
+    400158: Candycane 3
+    400160: Cookie 2 Star 1
+    400162: Cookie 2 Star 2
+    400164: Cookie 2 Star 3
+    400166: Cookie 2 Star 4
+    400168: Cookie Bell 1
+    400170: Cookie Bell 2
+    400172: Cookie Bell 3
+    400174: Cookie Box 1
+    400176: Cookie Box 2
+    400178: Cookie Box 3
+    400180: Cookie Candycane 1
+    400182: Cookie Candycane 2
+    400184: Cookie Candycane 3
+    400186: Cookie Candycane 4
+    400188: Cookie Donut 1
+    400190: Cookie Donut 2
+    400192: Cookie Gingerbread Man 1
+    400194: Cookie Gingerbread Man 2
+    400196: Cookie Gingerbread Man 3
+    400198: Cookie Gingerbread Man 4
+    400200: Cookie Gingerbread Man 5
+    400202: Cookie Heart 1
+    400204: Cookie Heart 2
+    400206: Cookie Heart 3
+    400208: Cookie Heart 4
+    400210: Cookie Ornament 1
+    400212: Cookie Ornament 2
+    400214: Cookie Ornament 3
+    400216: Cookie Ornament 4
+    400218: Cookie Round 1
+    400220: Cookie Round 2
+    400222: Cookie Round 3
+    400224: Cookie Round 4
+    400226: Cookie Snowman 1
+    400228: Cookie Snowman 2
+    400230: Cookie Snowman 3
+    400232: Cookie Sock 1
+    400234: Cookie Sock 2
+    400236: Cookie Sock 3
+    400238: Cookie Star 1
+    400240: Cookie Star 2
+    400242: Cookie Star 3
+    400244: Cookie Star 4
+    400246: Cookie Star 5
+    400248: Cookie Tree 1
+    400250: Cookie Tree 2
+    400252: Cookie Tree 3
+    400254: Cookie Tree 4
+    400256: Cookie Tree 5
+    400258: Cookie Wearth
+    400260: Cupcake 1
+    400262: Cupcake 2
+    400264: Cupcake 3
+    400266: Cupcake 4
+    400268: Flat cupcake 1
+    400270: Flat cupcake 2
+    400272: Flat cupcake 3
+    400274: Lolipop
+    400276: Plate A1
+    400278: Plate A2
+    400280: Plate B1
+    400282: Plate B2
+    400284: Plate C1
+    400286: Plate C2
+    400288: Plate D1
+    400290: Plate D2
+    400292: Round cupcake 1
+    400294: Round cupcake 2
+    400296: Round cupcake 3
+    400298: Round lolipop 1
+    400300: Round lolipop 2
+    400302: Tree lollipop 1
+    400304: Tree lollipop 2
+    2300000: Circle.004
+    2300002: Circle.005
+    2300004: Circle.010
+    2300006: Circle.011
+    2300008: Circle.012
+    2300010: Circle.013
+    2300012: Circle.014
+    2300014: Circle.015
+    2300016: Circle.016
+    2300018: Circle.017
+    2300020: Circle.018
+    2300022: Circle.019
+    2300024: Circle.021
+    2300026: Circle.022
+    2300028: Circle.023
+    2300030: Circle.024
+    2300032: Circle.025
+    2300034: Circle.026
+    2300036: Circle.027
+    2300038: Circle.028
+    2300040: Circle.029
+    2300042: Circle.030
+    2300044: Circle.031
+    2300046: Circle.032
+    2300048: Circle.033
+    2300050: Circle.034
+    2300052: Circle.035
+    2300054: Circle.036
+    2300056: Circle.037
+    2300058: Circle.038
+    2300060: Circle.039
+    2300062: Circle.040
+    2300064: Circle.041
+    2300066: Cube.001
+    2300068: Cube.002
+    2300070: Cube.013
+    2300072: Cylinder.004
+    2300074: Cylinder.005
+    2300076: Cylinder.006
+    2300078: Plane.001
+    2300080: Plane.008
+    2300082: Plane.009
+    2300084: Plane.010
+    2300086: Plane.013
+    2300088: Plane.014
+    2300090: Plane.015
+    2300092: Plane.016
+    2300094: Plane.017
+    2300096: Plane.018
+    2300098: Plane.019
+    2300100: Plane.020
+    2300102: Plane.021
+    2300104: Plane.022
+    2300106: Plane.023
+    2300108: Plane.024
+    2300110: Plane.025
+    2300112: Plane.026
+    2300114: Plane.027
+    2300116: Plane.028
+    2300118: Plane.029
+    2300120: Plane.030
+    2300122: Plane.031
+    2300124: Plane.032
+    2300126: Plane.033
+    2300128: Plane.034
+    2300130: Plane.035
+    2300132: Plane.036
+    2300134: Plane.037
+    2300136: Plane.038
+    2300138: Plane.039
+    2300140: Plane.040
+    2300142: Plane.041
+    2300144: Plane.042
+    2300146: Plane.043
+    2300148: Plane.044
+    2300150: Sphere.004
+    2300152: Candycane 1
+    2300154: Candycane 2
+    2300156: Candycane 3
+    2300158: Cookie 2 Star 1
+    2300160: Cookie 2 Star 2
+    2300162: Cookie 2 Star 3
+    2300164: Cookie 2 Star 4
+    2300166: Cookie Bell 1
+    2300168: Cookie Bell 2
+    2300170: Cookie Bell 3
+    2300172: Cookie Box 1
+    2300174: Cookie Box 2
+    2300176: Cookie Box 3
+    2300178: Cookie Candycane 1
+    2300180: Cookie Candycane 2
+    2300182: Cookie Candycane 3
+    2300184: Cookie Candycane 4
+    2300186: Cookie Donut 1
+    2300188: Cookie Donut 2
+    2300190: Cookie Gingerbread Man 1
+    2300192: Cookie Gingerbread Man 2
+    2300194: Cookie Gingerbread Man 3
+    2300196: Cookie Gingerbread Man 4
+    2300198: Cookie Gingerbread Man 5
+    2300200: Cookie Heart 1
+    2300202: Cookie Heart 2
+    2300204: Cookie Heart 3
+    2300206: Cookie Heart 4
+    2300208: Cookie Ornament 1
+    2300210: Cookie Ornament 2
+    2300212: Cookie Ornament 3
+    2300214: Cookie Ornament 4
+    2300216: Cookie Round 1
+    2300218: Cookie Round 2
+    2300220: Cookie Round 3
+    2300222: Cookie Round 4
+    2300224: Cookie Snowman 1
+    2300226: Cookie Snowman 2
+    2300228: Cookie Snowman 3
+    2300230: Cookie Sock 1
+    2300232: Cookie Sock 2
+    2300234: Cookie Sock 3
+    2300236: Cookie Star 1
+    2300238: Cookie Star 2
+    2300240: Cookie Star 3
+    2300242: Cookie Star 4
+    2300244: Cookie Star 5
+    2300246: Cookie Tree 1
+    2300248: Cookie Tree 2
+    2300250: Cookie Tree 3
+    2300252: Cookie Tree 4
+    2300254: Cookie Tree 5
+    2300256: Cookie Wearth
+    2300258: Cupcake 1
+    2300260: Cupcake 2
+    2300262: Cupcake 3
+    2300264: Cupcake 4
+    2300266: Flat cupcake 1
+    2300268: Flat cupcake 2
+    2300270: Flat cupcake 3
+    2300272: Lolipop
+    2300274: Plate A1
+    2300276: Plate A2
+    2300278: Plate B1
+    2300280: Plate B2
+    2300282: Plate C1
+    2300284: Plate C2
+    2300286: Plate D1
+    2300288: Plate D2
+    2300290: Round cupcake 1
+    2300292: Round cupcake 2
+    2300294: Round cupcake 3
+    2300296: Round lolipop 1
+    2300298: Round lolipop 2
+    2300300: Tree lollipop 1
+    2300302: Tree lollipop 2
+    3300000: Circle.004
+    3300002: Circle.005
+    3300004: Circle.010
+    3300006: Circle.011
+    3300008: Circle.012
+    3300010: Circle.013
+    3300012: Circle.014
+    3300014: Circle.015
+    3300016: Circle.016
+    3300018: Circle.017
+    3300020: Circle.018
+    3300022: Circle.019
+    3300024: Circle.021
+    3300026: Circle.022
+    3300028: Circle.023
+    3300030: Circle.024
+    3300032: Circle.025
+    3300034: Circle.026
+    3300036: Circle.027
+    3300038: Circle.028
+    3300040: Circle.029
+    3300042: Circle.030
+    3300044: Circle.031
+    3300046: Circle.032
+    3300048: Circle.033
+    3300050: Circle.034
+    3300052: Circle.035
+    3300054: Circle.036
+    3300056: Circle.037
+    3300058: Circle.038
+    3300060: Circle.039
+    3300062: Circle.040
+    3300064: Circle.041
+    3300066: Cube.001
+    3300068: Cube.002
+    3300070: Cube.013
+    3300072: Cylinder.004
+    3300074: Cylinder.005
+    3300076: Cylinder.006
+    3300078: Plane.001
+    3300080: Plane.008
+    3300082: Plane.009
+    3300084: Plane.010
+    3300086: Plane.013
+    3300088: Plane.014
+    3300090: Plane.015
+    3300092: Plane.016
+    3300094: Plane.017
+    3300096: Plane.018
+    3300098: Plane.019
+    3300100: Plane.020
+    3300102: Plane.021
+    3300104: Plane.022
+    3300106: Plane.023
+    3300108: Plane.024
+    3300110: Plane.025
+    3300112: Plane.026
+    3300114: Plane.027
+    3300116: Plane.028
+    3300118: Plane.029
+    3300120: Plane.030
+    3300122: Plane.031
+    3300124: Plane.032
+    3300126: Plane.033
+    3300128: Plane.034
+    3300130: Plane.035
+    3300132: Plane.036
+    3300134: Plane.037
+    3300136: Plane.038
+    3300138: Plane.039
+    3300140: Plane.040
+    3300142: Plane.041
+    3300144: Plane.042
+    3300146: Plane.043
+    3300148: Plane.044
+    3300150: Sphere.004
+    3300152: Candycane 1
+    3300154: Candycane 2
+    3300156: Candycane 3
+    3300158: Cookie 2 Star 1
+    3300160: Cookie 2 Star 2
+    3300162: Cookie 2 Star 3
+    3300164: Cookie 2 Star 4
+    3300166: Cookie Bell 1
+    3300168: Cookie Bell 2
+    3300170: Cookie Bell 3
+    3300172: Cookie Box 1
+    3300174: Cookie Box 2
+    3300176: Cookie Box 3
+    3300178: Cookie Candycane 1
+    3300180: Cookie Candycane 2
+    3300182: Cookie Candycane 3
+    3300184: Cookie Candycane 4
+    3300186: Cookie Donut 1
+    3300188: Cookie Donut 2
+    3300190: Cookie Gingerbread Man 1
+    3300192: Cookie Gingerbread Man 2
+    3300194: Cookie Gingerbread Man 3
+    3300196: Cookie Gingerbread Man 4
+    3300198: Cookie Gingerbread Man 5
+    3300200: Cookie Heart 1
+    3300202: Cookie Heart 2
+    3300204: Cookie Heart 3
+    3300206: Cookie Heart 4
+    3300208: Cookie Ornament 1
+    3300210: Cookie Ornament 2
+    3300212: Cookie Ornament 3
+    3300214: Cookie Ornament 4
+    3300216: Cookie Round 1
+    3300218: Cookie Round 2
+    3300220: Cookie Round 3
+    3300222: Cookie Round 4
+    3300224: Cookie Snowman 1
+    3300226: Cookie Snowman 2
+    3300228: Cookie Snowman 3
+    3300230: Cookie Sock 1
+    3300232: Cookie Sock 2
+    3300234: Cookie Sock 3
+    3300236: Cookie Star 1
+    3300238: Cookie Star 2
+    3300240: Cookie Star 3
+    3300242: Cookie Star 4
+    3300244: Cookie Star 5
+    3300246: Cookie Tree 1
+    3300248: Cookie Tree 2
+    3300250: Cookie Tree 3
+    3300252: Cookie Tree 4
+    3300254: Cookie Tree 5
+    3300256: Cookie Wearth
+    3300258: Cupcake 1
+    3300260: Cupcake 2
+    3300262: Cupcake 3
+    3300264: Cupcake 4
+    3300266: Flat cupcake 1
+    3300268: Flat cupcake 2
+    3300270: Flat cupcake 3
+    3300272: Lolipop
+    3300274: Plate A1
+    3300276: Plate A2
+    3300278: Plate B1
+    3300280: Plate B2
+    3300282: Plate C1
+    3300284: Plate C2
+    3300286: Plate D1
+    3300288: Plate D2
+    3300290: Round cupcake 1
+    3300292: Round cupcake 2
+    3300294: Round cupcake 3
+    3300296: Round lolipop 1
+    3300298: Round lolipop 2
+    3300300: Tree lollipop 1
+    3300302: Tree lollipop 2
+    4300000: Plane.044
+    4300002: Circle.041
+    4300004: Circle.040
+    4300006: Plane.043
+    4300008: Plane.026
+    4300010: Plane.024
+    4300012: Plane.035
+    4300014: Plane.034
+    4300016: Plane.033
+    4300018: Plane.032
+    4300020: Cube.002
+    4300022: Cube.001
+    4300024: Plane.042
+    4300026: Plane.041
+    4300028: Plane.040
+    4300030: Plane.039
+    4300032: Circle.039
+    4300034: Circle.038
+    4300036: Circle.037
+    4300038: Circle.036
+    4300040: Plane.038
+    4300042: Plane.037
+    4300044: Plane.036
+    4300046: Circle.035
+    4300048: Circle.034
+    4300050: Circle.033
+    4300052: Circle.032
+    4300054: Circle.031
+    4300056: Circle.030
+    4300058: Plane.031
+    4300060: Plane.030
+    4300062: Plane.029
+    4300064: Plane.028
+    4300066: Plane.027
+    4300068: Plane.025
+    4300070: Plane.023
+    4300072: Plane.022
+    4300074: Plane.021
+    4300076: Plane.010
+    4300078: Plane.001
+    4300080: Cylinder.005
+    4300082: Cylinder.004
+    4300084: Circle.029
+    4300086: Circle.028
+    4300088: Circle.027
+    4300090: Circle.026
+    4300092: Circle.025
+    4300094: Circle.024
+    4300096: Circle.023
+    4300098: Circle.022
+    4300100: Circle.021
+    4300102: Cube.013
+    4300104: Sphere.004
+    4300106: Cylinder.006
+    4300108: Circle.019
+    4300110: Circle.018
+    4300112: Circle.017
+    4300114: Circle.016
+    4300116: Circle.015
+    4300118: Plane.020
+    4300120: Plane.019
+    4300122: Circle.014
+    4300124: Circle.013
+    4300126: Plane.018
+    4300128: Plane.017
+    4300130: Circle.012
+    4300132: Circle.011
+    4300134: Circle.010
+    4300136: Plane.016
+    4300138: Plane.015
+    4300140: Plane.014
+    4300142: Plane.013
+    4300144: Plane.009
+    4300146: Circle.005
+    4300148: Circle.004
+    4300150: Plane.008
+    4300152: Plate D2
+    4300154: Plate C2
+    4300156: Plate B2
+    4300158: Plate A2
+    4300160: Cookie Star 3
+    4300162: Cookie Star 2
+    4300164: Cookie Gingerbread Man 5
+    4300166: Cookie Gingerbread Man 3
+    4300168: Cookie Gingerbread Man 4
+    4300170: Cookie Gingerbread Man 2
+    4300172: Cookie Box 3
+    4300174: Cookie Box 2
+    4300176: Cookie Sock 3
+    4300178: Cookie Sock 2
+    4300180: Cookie Bell 3
+    4300182: Cookie Bell 2
+    4300184: Cookie Donut 2
+    4300186: Cookie Round 3
+    4300188: Cookie Round 4
+    4300190: Cookie Round 2
+    4300192: Cookie Candycane 3
+    4300194: Cookie Candycane 4
+    4300196: Cookie Candycane 2
+    4300198: Cookie 2 Star 3
+    4300200: Cookie 2 Star 4
+    4300202: Cookie 2 Star 2
+    4300204: Cookie Ornament 3
+    4300206: Cookie Ornament 4
+    4300208: Cookie Ornament 2
+    4300210: Cookie Tree 5
+    4300212: Cookie Tree 3
+    4300214: Cookie Tree 4
+    4300216: Cookie Tree 2
+    4300218: Cookie Star 5
+    4300220: Cookie Star 4
+    4300222: Cookie Heart 3
+    4300224: Cookie Heart 4
+    4300226: Cookie Heart 2
+    4300228: Cookie Snowman 3
+    4300230: Cookie Snowman 2
+    4300232: Candycane 1
+    4300234: Candycane 2
+    4300236: Round lolipop 1
+    4300238: Tree lollipop 1
+    4300240: Flat cupcake 1
+    4300242: Flat cupcake 3
+    4300244: Round cupcake 3
+    4300246: Round cupcake 2
+    4300248: Cupcake 3
+    4300250: Cupcake 4
+    4300252: Cupcake 2
+    4300254: Cookie Box 1
+    4300256: Lolipop
+    4300258: Candycane 3
+    4300260: Round lolipop 2
+    4300262: Tree lollipop 2
+    4300264: Cupcake 1
+    4300266: Flat cupcake 2
+    4300268: Round cupcake 1
+    4300270: Cookie Sock 1
+    4300272: Cookie Bell 1
+    4300274: Cookie Donut 1
+    4300276: Cookie Round 1
+    4300278: Cookie Candycane 1
+    4300280: Cookie Gingerbread Man 1
+    4300282: Cookie 2 Star 1
+    4300284: Cookie Wearth
+    4300286: Cookie Ornament 1
+    4300288: Cookie Tree 1
+    4300290: Cookie Star 1
+    4300292: Cookie Heart 1
+    4300294: Cookie Snowman 1
+    4300296: Plate A1
+    4300298: Plate B1
+    4300300: Plate C1
+    4300302: Plate D1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
