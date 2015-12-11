@@ -13,12 +13,12 @@ public class CloudScript : MonoBehaviour {
 		if (lastHit == -50) {
 			Vector3 newPos = new Vector3 (this.transform.position.x, 
 			                             this.transform.position.y, 
-			                             this.transform.position.z + .01f);
+			                             this.transform.position.z + .001f);
 			this.transform.position = newPos;
 		} else if (lastHit == 50) {
 			Vector3 newPos = new Vector3 (this.transform.position.x, 
 			                              this.transform.position.y, 
-			                              this.transform.position.z - .01f);
+			                              this.transform.position.z - .001f);
 			this.transform.position = newPos;
 		}
 		if (this.transform.position.z > 50) {
