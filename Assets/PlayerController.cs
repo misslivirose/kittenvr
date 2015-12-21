@@ -4,7 +4,6 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	private int kittens_collected = 0;
 	private string message;
 	private bool hasDisplayedFinal = false;
 	private bool isInVRMode;
@@ -17,14 +16,6 @@ public class PlayerController : MonoBehaviour
 	 **/
 	void Start ()
 	{
-		if (GameObject.FindGameObjectWithTag ("NoVRPlayer") != null) {
-			isInVRMode = false;
-		}
-		else
-		{
-			isInVRMode = true;
-		}
-		Debug.Log (isInVRMode);
 
 	}
 	
@@ -34,7 +25,6 @@ public class PlayerController : MonoBehaviour
 	 **/
 	void Update ()
 	{
-		ResetOnFall();
         CheckCollision();
 	}
 
@@ -52,29 +42,12 @@ public class PlayerController : MonoBehaviour
                 if(_hit.collider.tag == "leader")
                 {
                     _kittenLeader.SendMessage("KittenLeaderClick");
-                }
-                else if (_hit.collider.tag == "kitten")
-                {
-                    GameObject _kitten = _hit.collider.gameObject;
-                    _controller.AddKitten();
-                    Destroy(_kitten);
+                    OrientTextToUser(_hit.collider.gameObject);
                 }
             }
         }
     }
 
-
-	/**
-	 * Check if character has fallen off level (FPSController only currently) 
-	 **/
-	void ResetOnFall()
-	{
-		if (this.tag != "anchor") {
-			if (this.transform.position.y < 0) {
-				Application.LoadLevel (Application.loadedLevel);
-			}
-		}
-	}
 
 	/**
 	 * Orient canvas & kitten to face user 
@@ -90,19 +63,5 @@ public class PlayerController : MonoBehaviour
 		Quaternion rot = Quaternion.Slerp (baseObject.transform.rotation, Quaternion.LookRotation (dist), speed * Time.deltaTime);
 		baseObject.transform.rotation = rot;
 		baseObject.transform.eulerAngles = new Vector3 (0, baseObject.transform.eulerAngles.y, 0);	
-	}
-	/**
-	 * "Collect a kitten by having it follow the player on click. 
-	 *  Kitten needs to : reparent to player
-	 * 					  orient behind player
-	 * 					  set animation to walk
-	 **/
-	void FollowPlayer(GameObject kitten)
-	{
-		GameObject player = GameObject.FindGameObjectWithTag ("Player");
-		kitten.transform.parent = player.transform;
-		Vector3 scale = new Vector3(0f, 0f, (-5f * kittens_collected));
-		kitten.transform.localPosition = scale;
-		//Destroy (kitten);
 	}
 }

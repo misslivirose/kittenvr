@@ -17,10 +17,18 @@ public class KittenScript : MonoBehaviour {
 
 	}
 
+    void OnTriggerEnter(Collider _player)
+    {
+        //Debug.Log("Collision!");
+        CollectMe();
+    }
+
     // Collection
     public void CollectMe()
     {
-        Destroy(this);
+        GameObject _EventSys = GameObject.FindGameObjectWithTag("eventsystem");
+        _EventSys.SendMessage("AddKitten");
+        Destroy(gameObject);
     }
 
 }

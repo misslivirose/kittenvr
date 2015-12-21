@@ -12,7 +12,8 @@ public class ReindeerMove : StateMachineBehaviour {
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         GameObject _reindeer = GameObject.FindGameObjectWithTag("reindeer");
         Vector3 _reindeerPos = _reindeer.transform.position;
-        _reindeerPos.z += 0.01f;
+        // TODO: Move reindeer in future update? 
+        
         _reindeer.transform.position = _reindeerPos;
     }
 

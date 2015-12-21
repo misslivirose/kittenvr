@@ -59,9 +59,9 @@ namespace HeurekaGames
             foreach (KeyValuePair<string, int> pair in list)
             {
                 if (!string.IsNullOrEmpty(description))
-                    classContent += String.Format("[Description(\"{0}\")]", description); 
-                
-                classContent += "\t\t" + pair.Key + " = " + pair.Value + "," + Environment.NewLine;
+                    classContent += String.Format("[Description(\"{0}\")]", description);
+
+                classContent += "\t\t" + pair.Key + " = " + pair.Value + "," + System.Environment.NewLine;
             }
 
             classContent += getFileEnd(className, assemblyName);
@@ -80,7 +80,7 @@ namespace HeurekaGames
                 if(!string.IsNullOrEmpty(description))
                     classContent += String.Format("[Description(\"{0}\")]", description);
 
-                classContent += "\t\t" + str + "," + Environment.NewLine;
+                classContent += "\t\t" + str + "," + System.Environment.NewLine;
             }
 
             classContent += getFileEnd(className, assemblyName);
@@ -93,11 +93,10 @@ namespace HeurekaGames
         {
             string part = string.Empty;
 
-            part += "\t}" + Environment.NewLine;
-            //classContent += "}" + Environment.NewLine;
+            part += "\t}" + System.Environment.NewLine;
 
             if (!string.IsNullOrEmpty(className))
-                part += "}" + Environment.NewLine;
+                part += "}" + System.Environment.NewLine;
 
             return part;
         }
@@ -109,9 +108,9 @@ namespace HeurekaGames
 
             //If we want a new class
             if (!string.IsNullOrEmpty(className))
-                part += "\tpublic partial class " + className + Environment.NewLine + "\t{" + Environment.NewLine;
+                part += "\tpublic partial class " + className + System.Environment.NewLine + "\t{" + System.Environment.NewLine;
 
-            part += "\tpublic enum " + assemblyName + Environment.NewLine + "\t{" + Environment.NewLine;
+            part += "\tpublic enum " + assemblyName + System.Environment.NewLine + "\t{" + System.Environment.NewLine;
 
             return part;
         }

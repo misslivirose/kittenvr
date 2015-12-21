@@ -158,7 +158,7 @@ public class AssetHunterMainWindow : EditorWindow, ISerializationCallbackReceive
         if (GUIDsmallLogo.Length >= 1)
         {
             m_window.m_UISmallLogo = AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(GUIDsmallLogo[0]), typeof(Texture2D)) as Texture2D;
-            EditorUtils.SetWindowValues(m_window, m_window.m_UISmallLogo, "Asset Hunter");
+            HeurekaGames.EditorUtils.SetWindowValues(m_window, m_window.m_UISmallLogo, "Asset Hunter");
         }
 
         //Warning
@@ -229,7 +229,7 @@ public class AssetHunterMainWindow : EditorWindow, ISerializationCallbackReceive
 
     private void OnShowDefaultGUI()
     {
-        EditorGUILayout.LabelField("Asset Hunter v1.3.3", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Asset Hunter v1.3.5", EditorStyles.boldLabel);
 
         //Show logo
         if (m_window && m_window.m_UIWideLogo)
@@ -344,6 +344,7 @@ public class AssetHunterMainWindow : EditorWindow, ISerializationCallbackReceive
         GUI.color = (m_WindowState == AssetHunterWindowState.BuildReport) ? Color.gray : m_IntialGUIColor;
         if (GUILayout.Button(AssetHunterWindowState.BuildReport.ToString(), GUILayout.MinWidth(btnMinWidth)))
         {
+            //AssetHunterHelper.GetAddedComponents();
             changeState(AssetHunterWindowState.BuildReport);
         }
 

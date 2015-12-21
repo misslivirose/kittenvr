@@ -28,6 +28,14 @@ public class GameController : MonoBehaviour {
             ExecuteEvents.Execute<IPointerClickHandler>(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerClickHandler);
 
         }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            Application.LoadLevel(0);
+        }
 
 	}
 
