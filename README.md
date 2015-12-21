@@ -12,6 +12,10 @@ Music:
 Licensed under Creative Commons: By Attribution 3.0
 http://creativecommons.org/licenses/by/3.0/
 
+### Known Issues
+* Framerate is likely going to be too low - needs optimization
+* Input axes are not as expected
+
 ### 0.2.0 Change Log
 * Added holiday theme
 * Support for VR, tested with Oculus Runtime 0.2.0
