@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 51ba19d3503c6ca4f8d0977e0adaffc8
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: jupiterc10
+    100002: jupiterc11
+    100004: jupiterc12
+    100006: jupiterc13
+    100008: jupiterc14
+    100010: jupiterc15
+    100012: jupiterc16
+    100014: jupiterc_1
+    100016: jupiterc_2
+    100018: jupiterc_3
+    100020: jupiterc_4
+    100022: jupiterc_5
+    100024: jupiterc_6
+    100026: jupiterc_7
+    100028: jupiterc_8
+    100030: jupiterc_9
+    100032: //RootNode
+    100034: jupiterc_g
+    100036: pCube3 jup
+    100038: pCube5 ju1
+    100040: pCube5 jup
+    100042: pCylinder1
+    100044: pCylinder2
+    100046: pCylinder3
+    400000: jupiterc10
+    400002: jupiterc11
+    400004: jupiterc12
+    400006: jupiterc13
+    400008: jupiterc14
+    400010: jupiterc15
+    400012: jupiterc16
+    400014: jupiterc_1
+    400016: jupiterc_2
+    400018: jupiterc_3
+    400020: jupiterc_4
+    400022: jupiterc_5
+    400024: jupiterc_6
+    400026: jupiterc_7
+    400028: jupiterc_8
+    400030: jupiterc_9
+    400032: //RootNode
+    400034: jupiterc_g
+    400036: pCube3 jup
+    400038: pCube5 ju1
+    400040: pCube5 jup
+    400042: pCylinder1
+    400044: pCylinder2
+    400046: pCylinder3
+    2300000: jupiterc10
+    2300002: jupiterc11
+    2300004: jupiterc12
+    2300006: jupiterc13
+    2300008: jupiterc14
+    2300010: jupiterc15
+    2300012: jupiterc16
+    2300014: jupiterc_1
+    2300016: jupiterc_2
+    2300018: jupiterc_3
+    2300020: jupiterc_4
+    2300022: jupiterc_5
+    2300024: jupiterc_6
+    2300026: jupiterc_7
+    2300028: jupiterc_8
+    2300030: jupiterc_9
+    2300032: jupiterc_g
+    2300034: pCube3 jup
+    2300036: pCube5 ju1
+    2300038: pCube5 jup
+    2300040: pCylinder1
+    2300042: pCylinder2
+    2300044: pCylinder3
+    3300000: jupiterc10
+    3300002: jupiterc11
+    3300004: jupiterc12
+    3300006: jupiterc13
+    3300008: jupiterc14
+    3300010: jupiterc15
+    3300012: jupiterc16
+    3300014: jupiterc_1
+    3300016: jupiterc_2
+    3300018: jupiterc_3
+    3300020: jupiterc_4
+    3300022: jupiterc_5
+    3300024: jupiterc_6
+    3300026: jupiterc_7
+    3300028: jupiterc_8
+    3300030: jupiterc_9
+    3300032: jupiterc_g
+    3300034: pCube3 jup
+    3300036: pCube5 ju1
+    3300038: pCube5 jup
+    3300040: pCylinder1
+    3300042: pCylinder2
+    3300044: pCylinder3
+    4300000: jupiterc_g
+    4300002: jupiterc_1
+    4300004: jupiterc_2
+    4300006: jupiterc_3
+    4300008: jupiterc_4
+    4300010: jupiterc_5
+    4300012: jupiterc_6
+    4300014: jupiterc_7
+    4300016: jupiterc_8
+    4300018: jupiterc_9
+    4300020: jupiterc10
+    4300022: jupiterc11
+    4300024: jupiterc12
+    4300026: jupiterc13
+    4300028: jupiterc14
+    4300030: jupiterc15
+    4300032: jupiterc16
+    4300034: pCube3 jup
+    4300036: pCube5 jup
+    4300038: pCube5 ju1
+    4300040: pCylinder1
+    4300042: pCylinder2
+    4300044: pCylinder3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

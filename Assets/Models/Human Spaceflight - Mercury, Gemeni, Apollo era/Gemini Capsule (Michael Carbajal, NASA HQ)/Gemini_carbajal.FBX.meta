@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 25864da78e8aed248b75cc2312eedbb7
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group12 10
+    100004: group12 11
+    100006: group12 12
+    100008: group12 13
+    100010: group12 14
+    100012: group12 15
+    100014: group12 16
+    100016: group12 17
+    100018: group12 18
+    100020: group12 19
+    100022: group12 20
+    100024: group12 21
+    100026: group12 22
+    100028: group12 23
+    100030: group12 24
+    100032: group12 25
+    100034: group12 26
+    100036: group12 27
+    100038: group12 28
+    100040: group12 29
+    100042: group12 30
+    100044: group12 31
+    100046: group12 32
+    100048: group12 33
+    100050: group12 34
+    100052: group12 35
+    100054: group12 36
+    100056: group12 37
+    100058: group12 38
+    100060: group12 39
+    100062: group12 40
+    100064: group12 41
+    100066: group12 42
+    100068: group12 43
+    100070: group12 44
+    100072: group12 45
+    100074: group12 46
+    100076: group12 47
+    100078: group12 48
+    100080: group12 49
+    100082: group12 50
+    100084: group12 g1
+    100086: group12 g2
+    100088: group12 g3
+    100090: group12 g4
+    100092: group12 g5
+    100094: group12 g6
+    100096: group12 g7
+    100098: group12 g8
+    100100: group12 g9
+    100102: group12 gr
+    100104: group15 gr
+    100106: group15 p1
+    100108: group15 pC
+    100110: group18 po
+    100112: group19 po
+    100114: group28 10
+    100116: group28 11
+    100118: group28 p1
+    100120: group28 p2
+    100122: group28 p3
+    100124: group28 p4
+    100126: group28 p5
+    100128: group28 p6
+    100130: group28 p7
+    100132: group28 p8
+    100134: group28 p9
+    100136: group28 pC
+    100138: pCube5 gro
+    100140: pCube68 gr
+    100142: pCube71 gr
+    100144: pCylinder1
+    100146: polySurfa1
+    100148: polySurfa2
+    100150: polySurfa3
+    100152: polySurfac
+    400000: //RootNode
+    400002: group12 10
+    400004: group12 11
+    400006: group12 12
+    400008: group12 13
+    400010: group12 14
+    400012: group12 15
+    400014: group12 16
+    400016: group12 17
+    400018: group12 18
+    400020: group12 19
+    400022: group12 20
+    400024: group12 21
+    400026: group12 22
+    400028: group12 23
+    400030: group12 24
+    400032: group12 25
+    400034: group12 26
+    400036: group12 27
+    400038: group12 28
+    400040: group12 29
+    400042: group12 30
+    400044: group12 31
+    400046: group12 32
+    400048: group12 33
+    400050: group12 34
+    400052: group12 35
+    400054: group12 36
+    400056: group12 37
+    400058: group12 38
+    400060: group12 39
+    400062: group12 40
+    400064: group12 41
+    400066: group12 42
+    400068: group12 43
+    400070: group12 44
+    400072: group12 45
+    400074: group12 46
+    400076: group12 47
+    400078: group12 48
+    400080: group12 49
+    400082: group12 50
+    400084: group12 g1
+    400086: group12 g2
+    400088: group12 g3
+    400090: group12 g4
+    400092: group12 g5
+    400094: group12 g6
+    400096: group12 g7
+    400098: group12 g8
+    400100: group12 g9
+    400102: group12 gr
+    400104: group15 gr
+    400106: group15 p1
+    400108: group15 pC
+    400110: group18 po
+    400112: group19 po
+    400114: group28 10
+    400116: group28 11
+    400118: group28 p1
+    400120: group28 p2
+    400122: group28 p3
+    400124: group28 p4
+    400126: group28 p5
+    400128: group28 p6
+    400130: group28 p7
+    400132: group28 p8
+    400134: group28 p9
+    400136: group28 pC
+    400138: pCube5 gro
+    400140: pCube68 gr
+    400142: pCube71 gr
+    400144: pCylinder1
+    400146: polySurfa1
+    400148: polySurfa2
+    400150: polySurfa3
+    400152: polySurfac
+    2300000: group12 10
+    2300002: group12 11
+    2300004: group12 12
+    2300006: group12 13
+    2300008: group12 14
+    2300010: group12 15
+    2300012: group12 16
+    2300014: group12 17
+    2300016: group12 18
+    2300018: group12 19
+    2300020: group12 20
+    2300022: group12 21
+    2300024: group12 22
+    2300026: group12 23
+    2300028: group12 24
+    2300030: group12 25
+    2300032: group12 26
+    2300034: group12 27
+    2300036: group12 28
+    2300038: group12 29
+    2300040: group12 30
+    2300042: group12 31
+    2300044: group12 32
+    2300046: group12 33
+    2300048: group12 34
+    2300050: group12 35
+    2300052: group12 36
+    2300054: group12 37
+    2300056: group12 38
+    2300058: group12 39
+    2300060: group12 40
+    2300062: group12 41
+    2300064: group12 42
+    2300066: group12 43
+    2300068: group12 44
+    2300070: group12 45
+    2300072: group12 46
+    2300074: group12 47
+    2300076: group12 48
+    2300078: group12 49
+    2300080: group12 50
+    2300082: group12 g1
+    2300084: group12 g2
+    2300086: group12 g3
+    2300088: group12 g4
+    2300090: group12 g5
+    2300092: group12 g6
+    2300094: group12 g7
+    2300096: group12 g8
+    2300098: group12 g9
+    2300100: group12 gr
+    2300102: group15 gr
+    2300104: group15 p1
+    2300106: group15 pC
+    2300108: group18 po
+    2300110: group19 po
+    2300112: group28 10
+    2300114: group28 11
+    2300116: group28 p1
+    2300118: group28 p2
+    2300120: group28 p3
+    2300122: group28 p4
+    2300124: group28 p5
+    2300126: group28 p6
+    2300128: group28 p7
+    2300130: group28 p8
+    2300132: group28 p9
+    2300134: group28 pC
+    2300136: pCube5 gro
+    2300138: pCube68 gr
+    2300140: pCube71 gr
+    2300142: pCylinder1
+    2300144: polySurfa1
+    2300146: polySurfa2
+    2300148: polySurfa3
+    2300150: polySurfac
+    3300000: group12 10
+    3300002: group12 11
+    3300004: group12 12
+    3300006: group12 13
+    3300008: group12 14
+    3300010: group12 15
+    3300012: group12 16
+    3300014: group12 17
+    3300016: group12 18
+    3300018: group12 19
+    3300020: group12 20
+    3300022: group12 21
+    3300024: group12 22
+    3300026: group12 23
+    3300028: group12 24
+    3300030: group12 25
+    3300032: group12 26
+    3300034: group12 27
+    3300036: group12 28
+    3300038: group12 29
+    3300040: group12 30
+    3300042: group12 31
+    3300044: group12 32
+    3300046: group12 33
+    3300048: group12 34
+    3300050: group12 35
+    3300052: group12 36
+    3300054: group12 37
+    3300056: group12 38
+    3300058: group12 39
+    3300060: group12 40
+    3300062: group12 41
+    3300064: group12 42
+    3300066: group12 43
+    3300068: group12 44
+    3300070: group12 45
+    3300072: group12 46
+    3300074: group12 47
+    3300076: group12 48
+    3300078: group12 49
+    3300080: group12 50
+    3300082: group12 g1
+    3300084: group12 g2
+    3300086: group12 g3
+    3300088: group12 g4
+    3300090: group12 g5
+    3300092: group12 g6
+    3300094: group12 g7
+    3300096: group12 g8
+    3300098: group12 g9
+    3300100: group12 gr
+    3300102: group15 gr
+    3300104: group15 p1
+    3300106: group15 pC
+    3300108: group18 po
+    3300110: group19 po
+    3300112: group28 10
+    3300114: group28 11
+    3300116: group28 p1
+    3300118: group28 p2
+    3300120: group28 p3
+    3300122: group28 p4
+    3300124: group28 p5
+    3300126: group28 p6
+    3300128: group28 p7
+    3300130: group28 p8
+    3300132: group28 p9
+    3300134: group28 pC
+    3300136: pCube5 gro
+    3300138: pCube68 gr
+    3300140: pCube71 gr
+    3300142: pCylinder1
+    3300144: polySurfa1
+    3300146: polySurfa2
+    3300148: polySurfa3
+    3300150: polySurfac
+    4300000: group12 gr
+    4300002: group12 g1
+    4300004: group12 g2
+    4300006: group12 g3
+    4300008: group12 g4
+    4300010: group12 g5
+    4300012: group12 g6
+    4300014: group12 g7
+    4300016: group12 g8
+    4300018: group12 g9
+    4300020: group12 10
+    4300022: group12 11
+    4300024: group12 12
+    4300026: group12 13
+    4300028: group12 14
+    4300030: group12 15
+    4300032: group12 16
+    4300034: group12 17
+    4300036: group12 18
+    4300038: group12 19
+    4300040: group12 20
+    4300042: group12 21
+    4300044: group12 22
+    4300046: group12 23
+    4300048: group12 24
+    4300050: group12 25
+    4300052: group12 26
+    4300054: group12 27
+    4300056: group12 28
+    4300058: group12 29
+    4300060: group12 30
+    4300062: group12 31
+    4300064: group12 32
+    4300066: group12 33
+    4300068: group12 34
+    4300070: group12 35
+    4300072: group12 36
+    4300074: group12 37
+    4300076: group12 38
+    4300078: group12 39
+    4300080: group12 40
+    4300082: group12 41
+    4300084: group12 42
+    4300086: group12 43
+    4300088: group12 44
+    4300090: group12 45
+    4300092: group12 46
+    4300094: group12 47
+    4300096: group12 48
+    4300098: group12 49
+    4300100: group12 50
+    4300102: group15 gr
+    4300104: group15 pC
+    4300106: group15 p1
+    4300108: group18 po
+    4300110: group19 po
+    4300112: group28 pC
+    4300114: group28 p1
+    4300116: group28 p2
+    4300118: group28 p3
+    4300120: group28 p4
+    4300122: group28 p5
+    4300124: group28 p6
+    4300126: group28 p7
+    4300128: group28 p8
+    4300130: group28 p9
+    4300132: group28 10
+    4300134: group28 11
+    4300136: pCube5 gro
+    4300138: pCube68 gr
+    4300140: pCube71 gr
+    4300142: pCylinder1
+    4300144: polySurfac
+    4300146: polySurfa1
+    4300148: polySurfa2
+    4300150: polySurfa3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

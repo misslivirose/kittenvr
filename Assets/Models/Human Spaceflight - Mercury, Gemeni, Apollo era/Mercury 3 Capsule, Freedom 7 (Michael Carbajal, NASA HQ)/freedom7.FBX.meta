@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: 393e2337b7f07a74d919666411718fd4
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group1 gr1
+    100004: group1 gr2
+    100006: group1 gro
+    100008: group29 10
+    100010: group29 11
+    100012: group29 12
+    100014: group29 13
+    100016: group29 14
+    100018: group29 15
+    100020: group29 16
+    100022: group29 17
+    100024: group29 18
+    100026: group29 19
+    100028: group29 20
+    100030: group29 21
+    100032: group29 22
+    100034: group29 23
+    100036: group29 24
+    100038: group29 25
+    100040: group29 26
+    100042: group29 27
+    100044: group29 28
+    100046: group29 29
+    100048: group29 30
+    100050: group29 31
+    100052: group29 32
+    100054: group29 33
+    100056: group29 34
+    100058: group29 35
+    100060: group29 36
+    100062: group29 37
+    100064: group29 38
+    100066: group29 39
+    100068: group29 40
+    100070: group29 41
+    100072: group29 42
+    100074: group29 43
+    100076: group29 44
+    100078: group29 45
+    100080: group29 46
+    100082: group29 47
+    100084: group29 48
+    100086: group29 49
+    100088: group29 50
+    100090: group29 51
+    100092: group29 52
+    100094: group29 53
+    100096: group29 54
+    100098: group29 55
+    100100: group29 56
+    100102: group29 57
+    100104: group29 58
+    100106: group29 59
+    100108: group29 60
+    100110: group29 61
+    100112: group29 62
+    100114: group29 63
+    100116: group29 64
+    100118: group29 65
+    100120: group29 66
+    100122: group29 67
+    100124: group29 68
+    100126: group29 69
+    100128: group29 70
+    100130: group29 71
+    100132: group29 72
+    100134: group29 73
+    100136: group29 74
+    100138: group29 75
+    100140: group29 76
+    100142: group29 77
+    100144: group29 78
+    100146: group29 79
+    100148: group29 80
+    100150: group29 81
+    100152: group29 82
+    100154: group29 83
+    100156: group29 84
+    100158: group29 85
+    100160: group29 86
+    100162: group29 87
+    100164: group29 88
+    100166: group29 89
+    100168: group29 90
+    100170: group29 91
+    100172: group29 92
+    100174: group29 93
+    100176: group29 94
+    100178: group29 95
+    100180: group29 96
+    100182: group29 97
+    100184: group29 98
+    100186: group29 99
+    100188: group29 g1
+    100190: group29 g2
+    100192: group29 g3
+    100194: group29 g4
+    100196: group29 g5
+    100198: group29 g6
+    100200: group29 g7
+    100202: group29 g8
+    100204: group29 g9
+    100206: group29 gr
+    100208: group29100
+    100210: group29101
+    100212: group29102
+    100214: group29103
+    100216: group29104
+    100218: group29105
+    100220: group29106
+    100222: group29107
+    100224: group29108
+    100226: group29109
+    100228: group29110
+    100230: group29111
+    100232: group29112
+    100234: group29113
+    100236: group29114
+    100238: group29115
+    100240: group29116
+    100242: group29117
+    100244: group29118
+    100246: group29119
+    100248: group29120
+    100250: group29121
+    100252: group29122
+    100254: group29123
+    100256: group29124
+    100258: group29125
+    100260: group29126
+    100262: group29127
+    100264: group29128
+    100266: group29129
+    100268: group29130
+    100270: group29131
+    100272: group29132
+    100274: group29133
+    100276: group29134
+    100278: group29135
+    100280: group29136
+    100282: group29137
+    100284: group29138
+    100286: group29139
+    100288: group29140
+    100290: group29141
+    100292: group29142
+    100294: group29143
+    100296: group47 10
+    100298: group47 11
+    100300: group47 12
+    100302: group47 13
+    100304: group47 14
+    100306: group47 15
+    100308: group47 16
+    100310: group47 17
+    100312: group47 18
+    100314: group47 19
+    100316: group47 20
+    100318: group47 21
+    100320: group47 22
+    100322: group47 23
+    100324: group47 24
+    100326: group47 25
+    100328: group47 26
+    100330: group47 27
+    100332: group47 28
+    100334: group47 29
+    100336: group47 30
+    100338: group47 31
+    100340: group47 g1
+    100342: group47 g2
+    100344: group47 g3
+    100346: group47 g4
+    100348: group47 g5
+    100350: group47 g6
+    100352: group47 g7
+    100354: group47 g8
+    100356: group47 g9
+    100358: group47 gr
+    100360: group49 10
+    100362: group49 11
+    100364: group49 12
+    100366: group49 13
+    100368: group49 14
+    100370: group49 15
+    100372: group49 16
+    100374: group49 17
+    100376: group49 18
+    100378: group49 19
+    100380: group49 20
+    100382: group49 21
+    100384: group49 22
+    100386: group49 23
+    100388: group49 24
+    100390: group49 25
+    100392: group49 26
+    100394: group49 27
+    100396: group49 28
+    100398: group49 29
+    100400: group49 30
+    100402: group49 31
+    100404: group49 32
+    100406: group49 g1
+    100408: group49 g2
+    100410: group49 g3
+    100412: group49 g4
+    100414: group49 g5
+    100416: group49 g6
+    100418: group49 g7
+    100420: group49 g8
+    100422: group49 g9
+    100424: group49 gr
+    100426: group49 pC
+    100428: pCube1 pol
+    100430: pCylinder7
+    100432: pCylinder9
+    100434: polySurfa1
+    100436: polySurfac
+    400000: //RootNode
+    400002: group1 gr1
+    400004: group1 gr2
+    400006: group1 gro
+    400008: group29 10
+    400010: group29 11
+    400012: group29 12
+    400014: group29 13
+    400016: group29 14
+    400018: group29 15
+    400020: group29 16
+    400022: group29 17
+    400024: group29 18
+    400026: group29 19
+    400028: group29 20
+    400030: group29 21
+    400032: group29 22
+    400034: group29 23
+    400036: group29 24
+    400038: group29 25
+    400040: group29 26
+    400042: group29 27
+    400044: group29 28
+    400046: group29 29
+    400048: group29 30
+    400050: group29 31
+    400052: group29 32
+    400054: group29 33
+    400056: group29 34
+    400058: group29 35
+    400060: group29 36
+    400062: group29 37
+    400064: group29 38
+    400066: group29 39
+    400068: group29 40
+    400070: group29 41
+    400072: group29 42
+    400074: group29 43
+    400076: group29 44
+    400078: group29 45
+    400080: group29 46
+    400082: group29 47
+    400084: group29 48
+    400086: group29 49
+    400088: group29 50
+    400090: group29 51
+    400092: group29 52
+    400094: group29 53
+    400096: group29 54
+    400098: group29 55
+    400100: group29 56
+    400102: group29 57
+    400104: group29 58
+    400106: group29 59
+    400108: group29 60
+    400110: group29 61
+    400112: group29 62
+    400114: group29 63
+    400116: group29 64
+    400118: group29 65
+    400120: group29 66
+    400122: group29 67
+    400124: group29 68
+    400126: group29 69
+    400128: group29 70
+    400130: group29 71
+    400132: group29 72
+    400134: group29 73
+    400136: group29 74
+    400138: group29 75
+    400140: group29 76
+    400142: group29 77
+    400144: group29 78
+    400146: group29 79
+    400148: group29 80
+    400150: group29 81
+    400152: group29 82
+    400154: group29 83
+    400156: group29 84
+    400158: group29 85
+    400160: group29 86
+    400162: group29 87
+    400164: group29 88
+    400166: group29 89
+    400168: group29 90
+    400170: group29 91
+    400172: group29 92
+    400174: group29 93
+    400176: group29 94
+    400178: group29 95
+    400180: group29 96
+    400182: group29 97
+    400184: group29 98
+    400186: group29 99
+    400188: group29 g1
+    400190: group29 g2
+    400192: group29 g3
+    400194: group29 g4
+    400196: group29 g5
+    400198: group29 g6
+    400200: group29 g7
+    400202: group29 g8
+    400204: group29 g9
+    400206: group29 gr
+    400208: group29100
+    400210: group29101
+    400212: group29102
+    400214: group29103
+    400216: group29104
+    400218: group29105
+    400220: group29106
+    400222: group29107
+    400224: group29108
+    400226: group29109
+    400228: group29110
+    400230: group29111
+    400232: group29112
+    400234: group29113
+    400236: group29114
+    400238: group29115
+    400240: group29116
+    400242: group29117
+    400244: group29118
+    400246: group29119
+    400248: group29120
+    400250: group29121
+    400252: group29122
+    400254: group29123
+    400256: group29124
+    400258: group29125
+    400260: group29126
+    400262: group29127
+    400264: group29128
+    400266: group29129
+    400268: group29130
+    400270: group29131
+    400272: group29132
+    400274: group29133
+    400276: group29134
+    400278: group29135
+    400280: group29136
+    400282: group29137
+    400284: group29138
+    400286: group29139
+    400288: group29140
+    400290: group29141
+    400292: group29142
+    400294: group29143
+    400296: group47 10
+    400298: group47 11
+    400300: group47 12
+    400302: group47 13
+    400304: group47 14
+    400306: group47 15
+    400308: group47 16
+    400310: group47 17
+    400312: group47 18
+    400314: group47 19
+    400316: group47 20
+    400318: group47 21
+    400320: group47 22
+    400322: group47 23
+    400324: group47 24
+    400326: group47 25
+    400328: group47 26
+    400330: group47 27
+    400332: group47 28
+    400334: group47 29
+    400336: group47 30
+    400338: group47 31
+    400340: group47 g1
+    400342: group47 g2
+    400344: group47 g3
+    400346: group47 g4
+    400348: group47 g5
+    400350: group47 g6
+    400352: group47 g7
+    400354: group47 g8
+    400356: group47 g9
+    400358: group47 gr
+    400360: group49 10
+    400362: group49 11
+    400364: group49 12
+    400366: group49 13
+    400368: group49 14
+    400370: group49 15
+    400372: group49 16
+    400374: group49 17
+    400376: group49 18
+    400378: group49 19
+    400380: group49 20
+    400382: group49 21
+    400384: group49 22
+    400386: group49 23
+    400388: group49 24
+    400390: group49 25
+    400392: group49 26
+    400394: group49 27
+    400396: group49 28
+    400398: group49 29
+    400400: group49 30
+    400402: group49 31
+    400404: group49 32
+    400406: group49 g1
+    400408: group49 g2
+    400410: group49 g3
+    400412: group49 g4
+    400414: group49 g5
+    400416: group49 g6
+    400418: group49 g7
+    400420: group49 g8
+    400422: group49 g9
+    400424: group49 gr
+    400426: group49 pC
+    400428: pCube1 pol
+    400430: pCylinder7
+    400432: pCylinder9
+    400434: polySurfa1
+    400436: polySurfac
+    2300000: group1 gr1
+    2300002: group1 gr2
+    2300004: group1 gro
+    2300006: group29 10
+    2300008: group29 11
+    2300010: group29 12
+    2300012: group29 13
+    2300014: group29 14
+    2300016: group29 15
+    2300018: group29 16
+    2300020: group29 17
+    2300022: group29 18
+    2300024: group29 19
+    2300026: group29 20
+    2300028: group29 21
+    2300030: group29 22
+    2300032: group29 23
+    2300034: group29 24
+    2300036: group29 25
+    2300038: group29 26
+    2300040: group29 27
+    2300042: group29 28
+    2300044: group29 29
+    2300046: group29 30
+    2300048: group29 31
+    2300050: group29 32
+    2300052: group29 33
+    2300054: group29 34
+    2300056: group29 35
+    2300058: group29 36
+    2300060: group29 37
+    2300062: group29 38
+    2300064: group29 39
+    2300066: group29 40
+    2300068: group29 41
+    2300070: group29 42
+    2300072: group29 43
+    2300074: group29 44
+    2300076: group29 45
+    2300078: group29 46
+    2300080: group29 47
+    2300082: group29 48
+    2300084: group29 49
+    2300086: group29 50
+    2300088: group29 51
+    2300090: group29 52
+    2300092: group29 53
+    2300094: group29 54
+    2300096: group29 55
+    2300098: group29 56
+    2300100: group29 57
+    2300102: group29 58
+    2300104: group29 59
+    2300106: group29 60
+    2300108: group29 61
+    2300110: group29 62
+    2300112: group29 63
+    2300114: group29 64
+    2300116: group29 65
+    2300118: group29 66
+    2300120: group29 67
+    2300122: group29 68
+    2300124: group29 69
+    2300126: group29 70
+    2300128: group29 71
+    2300130: group29 72
+    2300132: group29 73
+    2300134: group29 74
+    2300136: group29 75
+    2300138: group29 76
+    2300140: group29 77
+    2300142: group29 78
+    2300144: group29 79
+    2300146: group29 80
+    2300148: group29 81
+    2300150: group29 82
+    2300152: group29 83
+    2300154: group29 84
+    2300156: group29 85
+    2300158: group29 86
+    2300160: group29 87
+    2300162: group29 88
+    2300164: group29 89
+    2300166: group29 90
+    2300168: group29 91
+    2300170: group29 92
+    2300172: group29 93
+    2300174: group29 94
+    2300176: group29 95
+    2300178: group29 96
+    2300180: group29 97
+    2300182: group29 98
+    2300184: group29 99
+    2300186: group29 g1
+    2300188: group29 g2
+    2300190: group29 g3
+    2300192: group29 g4
+    2300194: group29 g5
+    2300196: group29 g6
+    2300198: group29 g7
+    2300200: group29 g8
+    2300202: group29 g9
+    2300204: group29 gr
+    2300206: group29100
+    2300208: group29101
+    2300210: group29102
+    2300212: group29103
+    2300214: group29104
+    2300216: group29105
+    2300218: group29106
+    2300220: group29107
+    2300222: group29108
+    2300224: group29109
+    2300226: group29110
+    2300228: group29111
+    2300230: group29112
+    2300232: group29113
+    2300234: group29114
+    2300236: group29115
+    2300238: group29116
+    2300240: group29117
+    2300242: group29118
+    2300244: group29119
+    2300246: group29120
+    2300248: group29121
+    2300250: group29122
+    2300252: group29123
+    2300254: group29124
+    2300256: group29125
+    2300258: group29126
+    2300260: group29127
+    2300262: group29128
+    2300264: group29129
+    2300266: group29130
+    2300268: group29131
+    2300270: group29132
+    2300272: group29133
+    2300274: group29134
+    2300276: group29135
+    2300278: group29136
+    2300280: group29137
+    2300282: group29138
+    2300284: group29139
+    2300286: group29140
+    2300288: group29141
+    2300290: group29142
+    2300292: group29143
+    2300294: group47 10
+    2300296: group47 11
+    2300298: group47 12
+    2300300: group47 13
+    2300302: group47 14
+    2300304: group47 15
+    2300306: group47 16
+    2300308: group47 17
+    2300310: group47 18
+    2300312: group47 19
+    2300314: group47 20
+    2300316: group47 21
+    2300318: group47 22
+    2300320: group47 23
+    2300322: group47 24
+    2300324: group47 25
+    2300326: group47 26
+    2300328: group47 27
+    2300330: group47 28
+    2300332: group47 29
+    2300334: group47 30
+    2300336: group47 31
+    2300338: group47 g1
+    2300340: group47 g2
+    2300342: group47 g3
+    2300344: group47 g4
+    2300346: group47 g5
+    2300348: group47 g6
+    2300350: group47 g7
+    2300352: group47 g8
+    2300354: group47 g9
+    2300356: group47 gr
+    2300358: group49 10
+    2300360: group49 11
+    2300362: group49 12
+    2300364: group49 13
+    2300366: group49 14
+    2300368: group49 15
+    2300370: group49 16
+    2300372: group49 17
+    2300374: group49 18
+    2300376: group49 19
+    2300378: group49 20
+    2300380: group49 21
+    2300382: group49 22
+    2300384: group49 23
+    2300386: group49 24
+    2300388: group49 25
+    2300390: group49 26
+    2300392: group49 27
+    2300394: group49 28
+    2300396: group49 29
+    2300398: group49 30
+    2300400: group49 31
+    2300402: group49 32
+    2300404: group49 g1
+    2300406: group49 g2
+    2300408: group49 g3
+    2300410: group49 g4
+    2300412: group49 g5
+    2300414: group49 g6
+    2300416: group49 g7
+    2300418: group49 g8
+    2300420: group49 g9
+    2300422: group49 gr
+    2300424: group49 pC
+    2300426: pCube1 pol
+    2300428: pCylinder7
+    2300430: pCylinder9
+    2300432: polySurfa1
+    2300434: polySurfac
+    3300000: group1 gr1
+    3300002: group1 gr2
+    3300004: group1 gro
+    3300006: group29 10
+    3300008: group29 11
+    3300010: group29 12
+    3300012: group29 13
+    3300014: group29 14
+    3300016: group29 15
+    3300018: group29 16
+    3300020: group29 17
+    3300022: group29 18
+    3300024: group29 19
+    3300026: group29 20
+    3300028: group29 21
+    3300030: group29 22
+    3300032: group29 23
+    3300034: group29 24
+    3300036: group29 25
+    3300038: group29 26
+    3300040: group29 27
+    3300042: group29 28
+    3300044: group29 29
+    3300046: group29 30
+    3300048: group29 31
+    3300050: group29 32
+    3300052: group29 33
+    3300054: group29 34
+    3300056: group29 35
+    3300058: group29 36
+    3300060: group29 37
+    3300062: group29 38
+    3300064: group29 39
+    3300066: group29 40
+    3300068: group29 41
+    3300070: group29 42
+    3300072: group29 43
+    3300074: group29 44
+    3300076: group29 45
+    3300078: group29 46
+    3300080: group29 47
+    3300082: group29 48
+    3300084: group29 49
+    3300086: group29 50
+    3300088: group29 51
+    3300090: group29 52
+    3300092: group29 53
+    3300094: group29 54
+    3300096: group29 55
+    3300098: group29 56
+    3300100: group29 57
+    3300102: group29 58
+    3300104: group29 59
+    3300106: group29 60
+    3300108: group29 61
+    3300110: group29 62
+    3300112: group29 63
+    3300114: group29 64
+    3300116: group29 65
+    3300118: group29 66
+    3300120: group29 67
+    3300122: group29 68
+    3300124: group29 69
+    3300126: group29 70
+    3300128: group29 71
+    3300130: group29 72
+    3300132: group29 73
+    3300134: group29 74
+    3300136: group29 75
+    3300138: group29 76
+    3300140: group29 77
+    3300142: group29 78
+    3300144: group29 79
+    3300146: group29 80
+    3300148: group29 81
+    3300150: group29 82
+    3300152: group29 83
+    3300154: group29 84
+    3300156: group29 85
+    3300158: group29 86
+    3300160: group29 87
+    3300162: group29 88
+    3300164: group29 89
+    3300166: group29 90
+    3300168: group29 91
+    3300170: group29 92
+    3300172: group29 93
+    3300174: group29 94
+    3300176: group29 95
+    3300178: group29 96
+    3300180: group29 97
+    3300182: group29 98
+    3300184: group29 99
+    3300186: group29 g1
+    3300188: group29 g2
+    3300190: group29 g3
+    3300192: group29 g4
+    3300194: group29 g5
+    3300196: group29 g6
+    3300198: group29 g7
+    3300200: group29 g8
+    3300202: group29 g9
+    3300204: group29 gr
+    3300206: group29100
+    3300208: group29101
+    3300210: group29102
+    3300212: group29103
+    3300214: group29104
+    3300216: group29105
+    3300218: group29106
+    3300220: group29107
+    3300222: group29108
+    3300224: group29109
+    3300226: group29110
+    3300228: group29111
+    3300230: group29112
+    3300232: group29113
+    3300234: group29114
+    3300236: group29115
+    3300238: group29116
+    3300240: group29117
+    3300242: group29118
+    3300244: group29119
+    3300246: group29120
+    3300248: group29121
+    3300250: group29122
+    3300252: group29123
+    3300254: group29124
+    3300256: group29125
+    3300258: group29126
+    3300260: group29127
+    3300262: group29128
+    3300264: group29129
+    3300266: group29130
+    3300268: group29131
+    3300270: group29132
+    3300272: group29133
+    3300274: group29134
+    3300276: group29135
+    3300278: group29136
+    3300280: group29137
+    3300282: group29138
+    3300284: group29139
+    3300286: group29140
+    3300288: group29141
+    3300290: group29142
+    3300292: group29143
+    3300294: group47 10
+    3300296: group47 11
+    3300298: group47 12
+    3300300: group47 13
+    3300302: group47 14
+    3300304: group47 15
+    3300306: group47 16
+    3300308: group47 17
+    3300310: group47 18
+    3300312: group47 19
+    3300314: group47 20
+    3300316: group47 21
+    3300318: group47 22
+    3300320: group47 23
+    3300322: group47 24
+    3300324: group47 25
+    3300326: group47 26
+    3300328: group47 27
+    3300330: group47 28
+    3300332: group47 29
+    3300334: group47 30
+    3300336: group47 31
+    3300338: group47 g1
+    3300340: group47 g2
+    3300342: group47 g3
+    3300344: group47 g4
+    3300346: group47 g5
+    3300348: group47 g6
+    3300350: group47 g7
+    3300352: group47 g8
+    3300354: group47 g9
+    3300356: group47 gr
+    3300358: group49 10
+    3300360: group49 11
+    3300362: group49 12
+    3300364: group49 13
+    3300366: group49 14
+    3300368: group49 15
+    3300370: group49 16
+    3300372: group49 17
+    3300374: group49 18
+    3300376: group49 19
+    3300378: group49 20
+    3300380: group49 21
+    3300382: group49 22
+    3300384: group49 23
+    3300386: group49 24
+    3300388: group49 25
+    3300390: group49 26
+    3300392: group49 27
+    3300394: group49 28
+    3300396: group49 29
+    3300398: group49 30
+    3300400: group49 31
+    3300402: group49 32
+    3300404: group49 g1
+    3300406: group49 g2
+    3300408: group49 g3
+    3300410: group49 g4
+    3300412: group49 g5
+    3300414: group49 g6
+    3300416: group49 g7
+    3300418: group49 g8
+    3300420: group49 g9
+    3300422: group49 gr
+    3300424: group49 pC
+    3300426: pCube1 pol
+    3300428: pCylinder7
+    3300430: pCylinder9
+    3300432: polySurfa1
+    3300434: polySurfac
+    4300000: group1 gro
+    4300002: group1 gr1
+    4300004: group1 gr2
+    4300006: group29 gr
+    4300008: group29 g1
+    4300010: group29 g2
+    4300012: group29 g3
+    4300014: group29 g4
+    4300016: group29 g5
+    4300018: group29 g6
+    4300020: group29 g7
+    4300022: group29 g8
+    4300024: group29 g9
+    4300026: group29 10
+    4300028: group29 11
+    4300030: group29 12
+    4300032: group29 13
+    4300034: group29 14
+    4300036: group29 15
+    4300038: group29 16
+    4300040: group29 17
+    4300042: group29 18
+    4300044: group29 19
+    4300046: group29 20
+    4300048: group29 21
+    4300050: group29 22
+    4300052: group29 23
+    4300054: group29 24
+    4300056: group29 25
+    4300058: group29 26
+    4300060: group29 27
+    4300062: group29 28
+    4300064: group29 29
+    4300066: group29 30
+    4300068: group29 31
+    4300070: group29 32
+    4300072: group29 33
+    4300074: group29 34
+    4300076: group29 35
+    4300078: group29 36
+    4300080: group29 37
+    4300082: group29 38
+    4300084: group29 39
+    4300086: group29 40
+    4300088: group29 41
+    4300090: group29 42
+    4300092: group29 43
+    4300094: group29 44
+    4300096: group29 45
+    4300098: group29 46
+    4300100: group29 47
+    4300102: group29 48
+    4300104: group29 49
+    4300106: group29 50
+    4300108: group29 51
+    4300110: group29 52
+    4300112: group29 53
+    4300114: group29 54
+    4300116: group29 55
+    4300118: group29 56
+    4300120: group29 57
+    4300122: group29 58
+    4300124: group29 59
+    4300126: group29 60
+    4300128: group29 61
+    4300130: group29 62
+    4300132: group29 63
+    4300134: group29 64
+    4300136: group29 65
+    4300138: group29 66
+    4300140: group29 67
+    4300142: group29 68
+    4300144: group29 69
+    4300146: group29 70
+    4300148: group29 71
+    4300150: group29 72
+    4300152: group29 73
+    4300154: group29 74
+    4300156: group29 75
+    4300158: group29 76
+    4300160: group29 77
+    4300162: group29 78
+    4300164: group29 79
+    4300166: group29 80
+    4300168: group29 81
+    4300170: group29 82
+    4300172: group29 83
+    4300174: group29 84
+    4300176: group29 85
+    4300178: group29 86
+    4300180: group29 87
+    4300182: group29 88
+    4300184: group29 89
+    4300186: group29 90
+    4300188: group29 91
+    4300190: group29 92
+    4300192: group29 93
+    4300194: group29 94
+    4300196: group29 95
+    4300198: group29 96
+    4300200: group29 97
+    4300202: group29 98
+    4300204: group29 99
+    4300206: group29100
+    4300208: group29101
+    4300210: group29102
+    4300212: group29103
+    4300214: group29104
+    4300216: group29105
+    4300218: group29106
+    4300220: group29107
+    4300222: group29108
+    4300224: group29109
+    4300226: group29110
+    4300228: group29111
+    4300230: group29112
+    4300232: group29113
+    4300234: group29114
+    4300236: group29115
+    4300238: group29116
+    4300240: group29117
+    4300242: group29118
+    4300244: group29119
+    4300246: group29120
+    4300248: group29121
+    4300250: group29122
+    4300252: group29123
+    4300254: group29124
+    4300256: group29125
+    4300258: group29126
+    4300260: group29127
+    4300262: group29128
+    4300264: group29129
+    4300266: group29130
+    4300268: group29131
+    4300270: group29132
+    4300272: group29133
+    4300274: group29134
+    4300276: group29135
+    4300278: group29136
+    4300280: group29137
+    4300282: group29138
+    4300284: group29139
+    4300286: group29140
+    4300288: group29141
+    4300290: group29142
+    4300292: group29143
+    4300294: group47 gr
+    4300296: group47 g1
+    4300298: group47 g2
+    4300300: group47 g3
+    4300302: group47 g4
+    4300304: group47 g5
+    4300306: group47 g6
+    4300308: group47 g7
+    4300310: group47 g8
+    4300312: group47 g9
+    4300314: group47 10
+    4300316: group47 11
+    4300318: group47 12
+    4300320: group47 13
+    4300322: group47 14
+    4300324: group47 15
+    4300326: group47 16
+    4300328: group47 17
+    4300330: group47 18
+    4300332: group47 19
+    4300334: group47 20
+    4300336: group47 21
+    4300338: group47 22
+    4300340: group47 23
+    4300342: group47 24
+    4300344: group47 25
+    4300346: group47 26
+    4300348: group47 27
+    4300350: group47 28
+    4300352: group47 29
+    4300354: group47 30
+    4300356: group47 31
+    4300358: group49 gr
+    4300360: group49 g1
+    4300362: group49 g2
+    4300364: group49 g3
+    4300366: group49 g4
+    4300368: group49 g5
+    4300370: group49 g6
+    4300372: group49 g7
+    4300374: group49 g8
+    4300376: group49 g9
+    4300378: group49 10
+    4300380: group49 11
+    4300382: group49 12
+    4300384: group49 13
+    4300386: group49 14
+    4300388: group49 15
+    4300390: group49 16
+    4300392: group49 17
+    4300394: group49 18
+    4300396: group49 19
+    4300398: group49 20
+    4300400: group49 21
+    4300402: group49 22
+    4300404: group49 23
+    4300406: group49 24
+    4300408: group49 25
+    4300410: group49 26
+    4300412: group49 27
+    4300414: group49 28
+    4300416: group49 29
+    4300418: group49 30
+    4300420: group49 31
+    4300422: group49 32
+    4300424: group49 pC
+    4300426: pCube1 pol
+    4300428: pCylinder7
+    4300430: pCylinder9
+    4300432: polySurfac
+    4300434: polySurfa1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: ae246b79b6b73c242a39df6ed2ec065c
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group13 10
+    100002: group13 11
+    100004: group13 12
+    100006: group13 13
+    100008: group13 14
+    100010: group13 g1
+    100012: group13 g2
+    100014: group13 g3
+    100016: group13 g4
+    100018: group13 g5
+    100020: group13 g6
+    100022: group13 g7
+    100024: group13 g8
+    100026: group13 g9
+    100028: group13 gr
+    100030: group13 p1
+    100032: group13 p2
+    100034: group13 pC
+    100036: group31 10
+    100038: group31 11
+    100040: group31 12
+    100042: group31 13
+    100044: group31 14
+    100046: group31 15
+    100048: group31 16
+    100050: group31 17
+    100052: group31 18
+    100054: group31 19
+    100056: group31 20
+    100058: group31 21
+    100060: group31 22
+    100062: group31 g1
+    100064: group31 g2
+    100066: group31 g3
+    100068: group31 g4
+    100070: group31 g5
+    100072: group31 g6
+    100074: group31 g7
+    100076: group31 g8
+    100078: group31 g9
+    100080: group31 gr
+    100082: group32 gr
+    100084: group51 10
+    100086: group51 11
+    100088: group51 12
+    100090: group51 13
+    100092: group51 14
+    100094: group51 15
+    100096: group51 16
+    100098: group51 17
+    100100: group51 18
+    100102: group51 19
+    100104: group51 20
+    100106: group51 21
+    100108: group51 g1
+    100110: group51 g2
+    100112: group51 g3
+    100114: group51 g4
+    100116: group51 g5
+    100118: group51 g6
+    100120: group51 g7
+    100122: group51 g8
+    100124: group51 g9
+    100126: group51 gr
+    100128: group51 p1
+    100130: group51 po
+    100132: group51 pS
+    100134: group61 p1
+    100136: group61 p2
+    100138: group61 pS
+    100140: group73 g1
+    100142: group73 g2
+    100144: group73 gr
+    100146: group73 p1
+    100148: group73 p2
+    100150: group73 p3
+    100152: group73 pC
+    100154: group74 g1
+    100156: group74 g2
+    100158: group74 gr
+    100160: group74 p1
+    100162: group74 p2
+    100164: group74 p3
+    100166: group74 pC
+    100168: group75 10
+    100170: group75 11
+    100172: group75 g1
+    100174: group75 g2
+    100176: group75 g3
+    100178: group75 gr
+    100180: group75 p1
+    100182: group75 p2
+    100184: group75 p3
+    100186: group75 p4
+    100188: group75 p5
+    100190: group75 p6
+    100192: group75 p7
+    100194: group75 p8
+    100196: group75 p9
+    100198: group75 pC
+    100200: group75 pP
+    100202: //RootNode
+    100204: pCone6
+    100206: pCone7
+    100208: pCube2
+    100210: pCube27
+    100212: pCube28
+    100214: pCube29
+    100216: pCube3
+    100218: pCylinde10
+    100220: pCylinde11
+    100222: pCylinder1
+    100224: pCylinder2
+    100226: pCylinder3
+    100228: pCylinder4
+    100230: pCylinder5
+    100232: pCylinder6
+    100234: pCylinder7
+    100236: pCylinder8
+    100238: pCylinder9
+    100240: polySurfa1
+    100242: polySurfa2
+    100244: polySurfa3
+    100246: polySurfa4
+    100248: polySurfac
+    100250: pPipe1
+    100252: pPipe2
+    100254: pPlane1
+    100256: pPlane2
+    100258: pSphere20
+    100260: pSphere26
+    100262: pSphere27
+    100264: pSphere28
+    100266: pSphere29
+    100268: pSphere30
+    100270: pSphere4 p
+    100272: pSphere5 p
+    400000: group13 10
+    400002: group13 11
+    400004: group13 12
+    400006: group13 13
+    400008: group13 14
+    400010: group13 g1
+    400012: group13 g2
+    400014: group13 g3
+    400016: group13 g4
+    400018: group13 g5
+    400020: group13 g6
+    400022: group13 g7
+    400024: group13 g8
+    400026: group13 g9
+    400028: group13 gr
+    400030: group13 p1
+    400032: group13 p2
+    400034: group13 pC
+    400036: group31 10
+    400038: group31 11
+    400040: group31 12
+    400042: group31 13
+    400044: group31 14
+    400046: group31 15
+    400048: group31 16
+    400050: group31 17
+    400052: group31 18
+    400054: group31 19
+    400056: group31 20
+    400058: group31 21
+    400060: group31 22
+    400062: group31 g1
+    400064: group31 g2
+    400066: group31 g3
+    400068: group31 g4
+    400070: group31 g5
+    400072: group31 g6
+    400074: group31 g7
+    400076: group31 g8
+    400078: group31 g9
+    400080: group31 gr
+    400082: group32 gr
+    400084: group51 10
+    400086: group51 11
+    400088: group51 12
+    400090: group51 13
+    400092: group51 14
+    400094: group51 15
+    400096: group51 16
+    400098: group51 17
+    400100: group51 18
+    400102: group51 19
+    400104: group51 20
+    400106: group51 21
+    400108: group51 g1
+    400110: group51 g2
+    400112: group51 g3
+    400114: group51 g4
+    400116: group51 g5
+    400118: group51 g6
+    400120: group51 g7
+    400122: group51 g8
+    400124: group51 g9
+    400126: group51 gr
+    400128: group51 p1
+    400130: group51 po
+    400132: group51 pS
+    400134: group61 p1
+    400136: group61 p2
+    400138: group61 pS
+    400140: group73 g1
+    400142: group73 g2
+    400144: group73 gr
+    400146: group73 p1
+    400148: group73 p2
+    400150: group73 p3
+    400152: group73 pC
+    400154: group74 g1
+    400156: group74 g2
+    400158: group74 gr
+    400160: group74 p1
+    400162: group74 p2
+    400164: group74 p3
+    400166: group74 pC
+    400168: group75 10
+    400170: group75 11
+    400172: group75 g1
+    400174: group75 g2
+    400176: group75 g3
+    400178: group75 gr
+    400180: group75 p1
+    400182: group75 p2
+    400184: group75 p3
+    400186: group75 p4
+    400188: group75 p5
+    400190: group75 p6
+    400192: group75 p7
+    400194: group75 p8
+    400196: group75 p9
+    400198: group75 pC
+    400200: group75 pP
+    400202: //RootNode
+    400204: pCone6
+    400206: pCone7
+    400208: pCube2
+    400210: pCube27
+    400212: pCube28
+    400214: pCube29
+    400216: pCube3
+    400218: pCylinde10
+    400220: pCylinde11
+    400222: pCylinder1
+    400224: pCylinder2
+    400226: pCylinder3
+    400228: pCylinder4
+    400230: pCylinder5
+    400232: pCylinder6
+    400234: pCylinder7
+    400236: pCylinder8
+    400238: pCylinder9
+    400240: polySurfa1
+    400242: polySurfa2
+    400244: polySurfa3
+    400246: polySurfa4
+    400248: polySurfac
+    400250: pPipe1
+    400252: pPipe2
+    400254: pPlane1
+    400256: pPlane2
+    400258: pSphere20
+    400260: pSphere26
+    400262: pSphere27
+    400264: pSphere28
+    400266: pSphere29
+    400268: pSphere30
+    400270: pSphere4 p
+    400272: pSphere5 p
+    2300000: group13 10
+    2300002: group13 11
+    2300004: group13 12
+    2300006: group13 13
+    2300008: group13 14
+    2300010: group13 g1
+    2300012: group13 g2
+    2300014: group13 g3
+    2300016: group13 g4
+    2300018: group13 g5
+    2300020: group13 g6
+    2300022: group13 g7
+    2300024: group13 g8
+    2300026: group13 g9
+    2300028: group13 gr
+    2300030: group13 p1
+    2300032: group13 p2
+    2300034: group13 pC
+    2300036: group31 10
+    2300038: group31 11
+    2300040: group31 12
+    2300042: group31 13
+    2300044: group31 14
+    2300046: group31 15
+    2300048: group31 16
+    2300050: group31 17
+    2300052: group31 18
+    2300054: group31 19
+    2300056: group31 20
+    2300058: group31 21
+    2300060: group31 22
+    2300062: group31 g1
+    2300064: group31 g2
+    2300066: group31 g3
+    2300068: group31 g4
+    2300070: group31 g5
+    2300072: group31 g6
+    2300074: group31 g7
+    2300076: group31 g8
+    2300078: group31 g9
+    2300080: group31 gr
+    2300082: group32 gr
+    2300084: group51 10
+    2300086: group51 11
+    2300088: group51 12
+    2300090: group51 13
+    2300092: group51 14
+    2300094: group51 15
+    2300096: group51 16
+    2300098: group51 17
+    2300100: group51 18
+    2300102: group51 19
+    2300104: group51 20
+    2300106: group51 21
+    2300108: group51 g1
+    2300110: group51 g2
+    2300112: group51 g3
+    2300114: group51 g4
+    2300116: group51 g5
+    2300118: group51 g6
+    2300120: group51 g7
+    2300122: group51 g8
+    2300124: group51 g9
+    2300126: group51 gr
+    2300128: group51 p1
+    2300130: group51 po
+    2300132: group51 pS
+    2300134: group61 p1
+    2300136: group61 p2
+    2300138: group61 pS
+    2300140: group73 g1
+    2300142: group73 g2
+    2300144: group73 gr
+    2300146: group73 p1
+    2300148: group73 p2
+    2300150: group73 p3
+    2300152: group73 pC
+    2300154: group74 g1
+    2300156: group74 g2
+    2300158: group74 gr
+    2300160: group74 p1
+    2300162: group74 p2
+    2300164: group74 p3
+    2300166: group74 pC
+    2300168: group75 10
+    2300170: group75 11
+    2300172: group75 g1
+    2300174: group75 g2
+    2300176: group75 g3
+    2300178: group75 gr
+    2300180: group75 p1
+    2300182: group75 p2
+    2300184: group75 p3
+    2300186: group75 p4
+    2300188: group75 p5
+    2300190: group75 p6
+    2300192: group75 p7
+    2300194: group75 p8
+    2300196: group75 p9
+    2300198: group75 pC
+    2300200: group75 pP
+    2300202: pCone6
+    2300204: pCone7
+    2300206: pCube2
+    2300208: pCube27
+    2300210: pCube28
+    2300212: pCube29
+    2300214: pCube3
+    2300216: pCylinde10
+    2300218: pCylinde11
+    2300220: pCylinder1
+    2300222: pCylinder2
+    2300224: pCylinder3
+    2300226: pCylinder4
+    2300228: pCylinder5
+    2300230: pCylinder6
+    2300232: pCylinder7
+    2300234: pCylinder8
+    2300236: pCylinder9
+    2300238: polySurfa1
+    2300240: polySurfa2
+    2300242: polySurfa3
+    2300244: polySurfa4
+    2300246: polySurfac
+    2300248: pPipe1
+    2300250: pPipe2
+    2300252: pPlane1
+    2300254: pPlane2
+    2300256: pSphere20
+    2300258: pSphere26
+    2300260: pSphere27
+    2300262: pSphere28
+    2300264: pSphere29
+    2300266: pSphere30
+    2300268: pSphere4 p
+    2300270: pSphere5 p
+    3300000: group13 10
+    3300002: group13 11
+    3300004: group13 12
+    3300006: group13 13
+    3300008: group13 14
+    3300010: group13 g1
+    3300012: group13 g2
+    3300014: group13 g3
+    3300016: group13 g4
+    3300018: group13 g5
+    3300020: group13 g6
+    3300022: group13 g7
+    3300024: group13 g8
+    3300026: group13 g9
+    3300028: group13 gr
+    3300030: group13 p1
+    3300032: group13 p2
+    3300034: group13 pC
+    3300036: group31 10
+    3300038: group31 11
+    3300040: group31 12
+    3300042: group31 13
+    3300044: group31 14
+    3300046: group31 15
+    3300048: group31 16
+    3300050: group31 17
+    3300052: group31 18
+    3300054: group31 19
+    3300056: group31 20
+    3300058: group31 21
+    3300060: group31 22
+    3300062: group31 g1
+    3300064: group31 g2
+    3300066: group31 g3
+    3300068: group31 g4
+    3300070: group31 g5
+    3300072: group31 g6
+    3300074: group31 g7
+    3300076: group31 g8
+    3300078: group31 g9
+    3300080: group31 gr
+    3300082: group32 gr
+    3300084: group51 10
+    3300086: group51 11
+    3300088: group51 12
+    3300090: group51 13
+    3300092: group51 14
+    3300094: group51 15
+    3300096: group51 16
+    3300098: group51 17
+    3300100: group51 18
+    3300102: group51 19
+    3300104: group51 20
+    3300106: group51 21
+    3300108: group51 g1
+    3300110: group51 g2
+    3300112: group51 g3
+    3300114: group51 g4
+    3300116: group51 g5
+    3300118: group51 g6
+    3300120: group51 g7
+    3300122: group51 g8
+    3300124: group51 g9
+    3300126: group51 gr
+    3300128: group51 p1
+    3300130: group51 po
+    3300132: group51 pS
+    3300134: group61 p1
+    3300136: group61 p2
+    3300138: group61 pS
+    3300140: group73 g1
+    3300142: group73 g2
+    3300144: group73 gr
+    3300146: group73 p1
+    3300148: group73 p2
+    3300150: group73 p3
+    3300152: group73 pC
+    3300154: group74 g1
+    3300156: group74 g2
+    3300158: group74 gr
+    3300160: group74 p1
+    3300162: group74 p2
+    3300164: group74 p3
+    3300166: group74 pC
+    3300168: group75 10
+    3300170: group75 11
+    3300172: group75 g1
+    3300174: group75 g2
+    3300176: group75 g3
+    3300178: group75 gr
+    3300180: group75 p1
+    3300182: group75 p2
+    3300184: group75 p3
+    3300186: group75 p4
+    3300188: group75 p5
+    3300190: group75 p6
+    3300192: group75 p7
+    3300194: group75 p8
+    3300196: group75 p9
+    3300198: group75 pC
+    3300200: group75 pP
+    3300202: pCone6
+    3300204: pCone7
+    3300206: pCube2
+    3300208: pCube27
+    3300210: pCube28
+    3300212: pCube29
+    3300214: pCube3
+    3300216: pCylinde10
+    3300218: pCylinde11
+    3300220: pCylinder1
+    3300222: pCylinder2
+    3300224: pCylinder3
+    3300226: pCylinder4
+    3300228: pCylinder5
+    3300230: pCylinder6
+    3300232: pCylinder7
+    3300234: pCylinder8
+    3300236: pCylinder9
+    3300238: polySurfa1
+    3300240: polySurfa2
+    3300242: polySurfa3
+    3300244: polySurfa4
+    3300246: polySurfac
+    3300248: pPipe1
+    3300250: pPipe2
+    3300252: pPlane1
+    3300254: pPlane2
+    3300256: pSphere20
+    3300258: pSphere26
+    3300260: pSphere27
+    3300262: pSphere28
+    3300264: pSphere29
+    3300266: pSphere30
+    3300268: pSphere4 p
+    3300270: pSphere5 p
+    4300000: group13 gr
+    4300002: group13 g1
+    4300004: group13 g2
+    4300006: group13 g3
+    4300008: group13 g4
+    4300010: group13 g5
+    4300012: group13 g6
+    4300014: group13 g7
+    4300016: group13 g8
+    4300018: group13 g9
+    4300020: group13 10
+    4300022: group13 11
+    4300024: group13 12
+    4300026: group13 13
+    4300028: group13 14
+    4300030: group13 pC
+    4300032: group13 p1
+    4300034: group13 p2
+    4300036: group31 gr
+    4300038: group31 g1
+    4300040: group31 g2
+    4300042: group31 g3
+    4300044: group31 g4
+    4300046: group31 g5
+    4300048: group31 g6
+    4300050: group31 g7
+    4300052: group31 g8
+    4300054: group31 g9
+    4300056: group31 10
+    4300058: group31 11
+    4300060: group31 12
+    4300062: group31 13
+    4300064: group31 14
+    4300066: group31 15
+    4300068: group31 16
+    4300070: group31 17
+    4300072: group31 18
+    4300074: group31 19
+    4300076: group31 20
+    4300078: group31 21
+    4300080: group31 22
+    4300082: group32 gr
+    4300084: group51 gr
+    4300086: group51 g1
+    4300088: group51 g2
+    4300090: group51 g3
+    4300092: group51 g4
+    4300094: group51 g5
+    4300096: group51 g6
+    4300098: group51 g7
+    4300100: group51 g8
+    4300102: group51 g9
+    4300104: group51 10
+    4300106: group51 11
+    4300108: group51 12
+    4300110: group51 13
+    4300112: group51 14
+    4300114: group51 15
+    4300116: group51 16
+    4300118: group51 17
+    4300120: group51 18
+    4300122: group51 19
+    4300124: group51 20
+    4300126: group51 21
+    4300128: group51 pS
+    4300130: group51 p1
+    4300132: group51 po
+    4300134: group61 pS
+    4300136: group61 p1
+    4300138: group61 p2
+    4300140: group73 gr
+    4300142: group73 g1
+    4300144: group73 g2
+    4300146: group73 pC
+    4300148: group73 p1
+    4300150: group73 p2
+    4300152: group73 p3
+    4300154: group74 gr
+    4300156: group74 g1
+    4300158: group74 g2
+    4300160: group74 pC
+    4300162: group74 p1
+    4300164: group74 p2
+    4300166: group74 p3
+    4300168: group75 gr
+    4300170: group75 g1
+    4300172: group75 g2
+    4300174: group75 g3
+    4300176: group75 pC
+    4300178: group75 p1
+    4300180: group75 p2
+    4300182: group75 p3
+    4300184: group75 p4
+    4300186: group75 p5
+    4300188: group75 p6
+    4300190: group75 p7
+    4300192: group75 p8
+    4300194: group75 pP
+    4300196: group75 p9
+    4300198: group75 10
+    4300200: group75 11
+    4300202: pCone6
+    4300204: pCone7
+    4300206: pCube2
+    4300208: pCube27
+    4300210: pCube28
+    4300212: pCube29
+    4300214: pCube3
+    4300216: pCylinder1
+    4300218: pCylinder2
+    4300220: pCylinder3
+    4300222: pCylinder4
+    4300224: pCylinder5
+    4300226: pCylinder6
+    4300228: pCylinder7
+    4300230: pCylinder8
+    4300232: pCylinder9
+    4300234: pCylinde10
+    4300236: pCylinde11
+    4300238: pPipe1
+    4300240: pPipe2
+    4300242: pPlane1
+    4300244: pPlane2
+    4300246: pSphere20
+    4300248: pSphere26
+    4300250: pSphere27
+    4300252: pSphere28
+    4300254: pSphere29
+    4300256: pSphere30
+    4300258: pSphere4 p
+    4300260: pSphere5 p
+    4300262: polySurfac
+    4300264: polySurfa1
+    4300266: polySurfa2
+    4300268: polySurfa3
+    4300270: polySurfa4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
