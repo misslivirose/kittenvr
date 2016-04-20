@@ -10,14 +10,13 @@ public class NoGravity : MonoBehaviour {
     private Vector3 _top, _bottom;
     private float _percent = 0.0f;
     private float _speed = 0.1f;
-    private Direction _direction;
+    public Direction _direction;
 
     // Define direction up and down
-    enum Direction { UP, DOWN};
+    public enum Direction { UP, DOWN};
     
     // Set the direction to up, and the locations
 	void Start () {
-        _direction = Direction.UP;
         _top = new Vector3(transform.position.x,
                            transform.position.y + _distance,
                            transform.position.z);

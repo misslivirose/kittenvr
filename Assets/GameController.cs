@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 /**
  * The GameController class helps clean up the behavior of the game.
@@ -10,7 +11,6 @@ using UnityEngine.EventSystems;
  * @author: Liv Erickson (@misslivirose)
  */
 public class GameController : MonoBehaviour {
-	bool isInVRMode;
 	int kittens_collected;
 
 	// Use this for initialization
@@ -21,20 +21,13 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetButtonDown("Submit"))
-        {
-
-            Debug.Log("Registered press");
-            ExecuteEvents.Execute<IPointerClickHandler>(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerClickHandler);
-
-        }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
         if(Input.GetKeyDown(KeyCode.J))
         {
-            Application.LoadLevel(0);
+            SceneManager.LoadScene("SpaceLevel");
         }
 
 	}

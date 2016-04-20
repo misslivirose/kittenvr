@@ -65,7 +65,7 @@ public class LeaderScript : MonoBehaviour{
 			t.text = message;
 		} 
 		else {
-			t.text = "Mosby";
+			t.text = "Captain Mosby";
 		}
 	}
 }
