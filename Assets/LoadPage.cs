@@ -6,18 +6,15 @@ public class LoadPage : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        StartCoroutine(Pause(3.0f));
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
 	
+         if(Input.GetAxis("Fire1") >= 0.75)
+        {
+            EditorSceneManager.LoadScene(1);
+        }
 	}
-
-    IEnumerator Pause(float _seconds)
-    {
-        yield return new WaitForSeconds(_seconds);
-        EditorSceneManager.LoadScene(1);
-
-    }
 }
