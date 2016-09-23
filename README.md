@@ -1,5 +1,5 @@
 # kittenvr
-You can always view the latest progress of Kitten VR over at [www.kittenvr.com](kittenvr.com)
+You can always view the latest progress of Kitten VR over at [www.kittenvr.com](http://kittenvr.com)
 
 ### Overview
 Kitten VR began as an experiment with building low poly environments in Unity 5, and quickly turned into a simple application with a lot of potential. My goals with Kitten VR are twofold: to have a simple, easy to play mini-game for use with virtual reality devices that I can use as a basis for testing new VR SDKs, and to document the process for those interested in learning how to build applications that take advantage of today's VR ecosystem themselves.
